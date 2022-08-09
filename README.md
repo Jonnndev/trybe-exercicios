@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Jonathas Assis de Oliveira] (https://www.linkedin.com/in/jonn-oliveira/) enquanto estudava na [Trybe] (https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Jonathas Assis de Oliveira]_ (https://www.linkedin.com/in/jonn-oliveira/) enquanto estudava na _[Trybe]_ (https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
