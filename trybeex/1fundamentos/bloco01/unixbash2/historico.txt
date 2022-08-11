@@ -1,5 +1,0 @@
-  455  cd bloco01/
-  456  ls
-  457  cd unixbash2
-  458  ls
-  459  history | tail -5 >> historico.txt

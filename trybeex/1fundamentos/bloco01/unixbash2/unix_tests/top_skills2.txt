@@ -1,3 +1,0 @@
-bash
-css
-html
