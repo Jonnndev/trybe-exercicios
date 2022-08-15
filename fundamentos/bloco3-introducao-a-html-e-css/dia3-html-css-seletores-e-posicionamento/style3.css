@@ -1,0 +1,13 @@
+h1, p {
+  text-align: center;
+}
+
+li:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+
+li:active{
+  font-size: 1.5em;
+  transition: 0.1s;
+}
