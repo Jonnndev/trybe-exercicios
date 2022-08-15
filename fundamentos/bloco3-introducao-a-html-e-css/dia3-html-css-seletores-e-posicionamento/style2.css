@@ -21,6 +21,11 @@
 
 .speech {
   font-size: 25px;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  z-index: 3;
+  width: 300px;
 
 }
 
