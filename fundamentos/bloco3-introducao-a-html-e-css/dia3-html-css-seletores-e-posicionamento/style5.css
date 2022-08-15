@@ -34,3 +34,13 @@ li {
 li em {
   font-weight: 900;
 }
+
+/* EXERCICIO 4 */
+
+#languages li:nth-child(-n+3){
+  color: blue;
+}
+
+#languages .java{
+  background-color: pink;
+}
