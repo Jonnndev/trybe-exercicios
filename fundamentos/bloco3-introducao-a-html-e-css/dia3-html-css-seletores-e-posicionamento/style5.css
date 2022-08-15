@@ -44,3 +44,25 @@ li em {
 #languages .java{
   background-color: pink;
 }
+
+/* EXERCICIO 5 */
+
+#stackoverflow:hover {
+  background-color: orangered;
+}
+
+#w3:hover {
+  background-color: greenyellow;
+}
+
+#developer:hover {
+  background-color: black;
+}
+
+#devdocs:hover {
+  background-color: yellow;
+}
+
+#trybe:hover {
+  background-color: green;
+}
