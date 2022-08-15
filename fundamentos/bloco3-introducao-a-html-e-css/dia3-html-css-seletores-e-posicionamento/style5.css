@@ -1,0 +1,68 @@
+/* EXERCICIO 1 */
+
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-of-type(2n) {
+  color: green;
+}
+
+ol li:nth-of-type(2n+1) {
+  text-transform: uppercase;
+}
+
+/* EXERCICIO 2 */
+
+h1,
+h3 {
+  color: red;
+}
+
+
+h1 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+/* EXERCICIO 3 */
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 900;
+}
+
+/* EXERCICIO 4 */
+
+#languages li:nth-child(-n+3){
+  color: blue;
+}
+
+#languages .java{
+  background-color: pink;
+}
+
+/* EXERCICIO 5 */
+
+#stackoverflow:hover {
+  background-color: orangered;
+}
+
+#w3:hover {
+  background-color: greenyellow;
+}
+
+#developer:hover {
+  background-color: black;
+}
+
+#devdocs:hover {
+  background-color: yellow;
+}
+
+#trybe:hover {
+  background-color: green;
+}
