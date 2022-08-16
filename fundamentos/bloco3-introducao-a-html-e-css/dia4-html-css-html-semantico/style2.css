@@ -79,3 +79,9 @@ table, th, td {
   border: 1px solid black;
 
 }
+
+/* 3 - IMGs */
+
+img{
+  width: 200px;
+}
