@@ -45,6 +45,8 @@ header h1 {
 
 
 .articles {
+  position: absolute;
+  width: 84%;
   border: 2px solid rgb(0, 17, 255);
 
 }
@@ -59,29 +61,49 @@ header h1 {
 
 }
 
-.description-container{
+.description-container {
   border: 2px solid rgb(0, 17, 255);
 
 }
 
 /* 2 - TABELA */
 
-#table{
+#table {
   border: 2px solid rgb(0, 17, 255);
 
 }
+
 table {
   border: 1px solid black;
 
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
 
 }
 
 /* 3 - IMGs */
 
-img{
+img {
   width: 200px;
+}
+
+/* 4 -BARRA LATERAL */
+
+aside{
+  border: 2px solid rgb(255, 0, 212);
+  width: 15%;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  float: right;
+  margin-top: 50%;
+}
+
+aside a {
+  text-decoration: none;
+  color: black;
 }
