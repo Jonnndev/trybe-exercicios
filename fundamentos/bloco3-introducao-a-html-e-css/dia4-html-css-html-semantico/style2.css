@@ -54,6 +54,11 @@ header h1 {
 
 }
 
+.articles h3 {
+  border: 2px solid rgb(0, 17, 255);
+
+}
+
 .description-container{
   border: 2px solid rgb(0, 17, 255);
 
