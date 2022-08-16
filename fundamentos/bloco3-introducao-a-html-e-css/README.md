@@ -12,7 +12,7 @@ Nesse bloco aprendi sobre:
 
 - [x] Como alterar o posicionamento dos elementos na página e como algumas propriedades específicas alteram as dimensões dos elementos; 
 
-- [] O significado que cada elemento HTML carrega e sobre como isso impacta na interpretação do conteúdo da página por robôs e outros elementos da Internet.
+- [x] O significado que cada elemento HTML carrega e sobre como isso impacta na interpretação do conteúdo da página por robôs e outros elementos da Internet.
 
 Tendo isso em mente aqui vocês encontrarão exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido, você pode acessa-lo [aqui](linkProjetoDoBloco).
 
