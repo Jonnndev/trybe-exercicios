@@ -1,18 +1,36 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+#menu li a {
+  font-family: 'Permanent Marker', cursive;
+
+}
+
 
 /* CABEÇALHO */
 
 header {
   text-align: center;
-  border: 2px solid red;
+  border: 1px solid #292522;
+  background-color: #292522;
 }
 
 header h1 {
   margin: 2%;
-  border: 2px solid red;
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
 }
 
 /* MENU */
@@ -20,23 +38,20 @@ header h1 {
 #menu {
   font-size: 20px;
   text-align: center;
-  border: 2px solid red;
+  background-color: #a39081;
 
 }
 
 #menu li {
   list-style: none;
   display: inline-block;
-  margin-right: 30px;
-  border: 2px solid red;
-
+  margin: auto;
+  padding: 10px;
 }
 
 #menu li a {
   text-decoration: none;
   color: black;
-  border: 2px solid red;
-
 }
 
 /* ARTIGOS */
@@ -93,7 +108,7 @@ img {
 
 /* 4 -BARRA LATERAL */
 
-aside{
+aside {
   border: 2px solid rgb(255, 0, 212);
   width: 15%;
   position: fixed;
@@ -110,12 +125,12 @@ aside a {
 
 /* 5 -FOOTER */
 
-main{
+main {
   min-height: 60cm;
 
 }
 
-footer{
+footer {
   position: absolute;
   border: 2px solid rgb(255, 0, 212);
 }
