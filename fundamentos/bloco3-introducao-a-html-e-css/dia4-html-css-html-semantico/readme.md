@@ -1,3 +1,9 @@
+##Exercício referente ao dia 4 do bloco 3 de fundamentos.##
+###Estruturação de um site utilizando adequadamente o conhecimento de tags semânticas###
+
+## 
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
