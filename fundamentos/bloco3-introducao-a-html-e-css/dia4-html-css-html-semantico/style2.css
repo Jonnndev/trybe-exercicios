@@ -106,7 +106,7 @@ header h1 {
   text-align: center;
 }
 
-p{
+p {
   font-family: 'Poppins', sans-serif;
   margin: 25px 15px;
   line-height: 35px;
@@ -164,17 +164,35 @@ img {
   margin-top: 3px;
 }
 
-/* 4 -BARRA LATERAL */
+/* 4 -LISTA */
+
+
+ul li {
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 15px;
+  margin-left: 80px;
+  line-height: 35px;
+  text-align: justify;
+  font-size: 18px;
+  list-style-type: circle;
+}
+
+/* 5 -BARRA LATERAL */
 
 aside {
-  border: 2px solid rgb(255, 0, 212);
+  border: 2px solid #292522;
   width: 15%;
   position: fixed;
-  text-align: center;
   font-size: 20px;
   margin-top: 10%;
   margin-left: 85%;
   background-color: #a39081;
+  border-radius: 8%;
+}
+
+#lateral-bar p{
+  text-align: center;
+  line-height: 25px;
 }
 
 aside a {
@@ -182,7 +200,13 @@ aside a {
   color: black;
 }
 
-/* 5 -FOOTER */
+aside a:hover {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s;
+}
+
+/* 6 -FOOTER */
 
 main {
   min-height: 60cm;
