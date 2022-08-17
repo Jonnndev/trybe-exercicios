@@ -1,0 +1,205 @@
+# Exercício referente ao dia 4 do bloco 3 de fundamentos. :heavy_check_mark:
+
+#### Estruturação de um site utilizando adequadamente o conhecimento de tags semânticas.
+
+:arrow_down:
+## 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O incŕivel Stomatopoda</title>
+  <link rel="stylesheet" href="style2.css">
+  <!-- FONTE TITULO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- FONTE TEXTO -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li><a href="#" target="_blank">Página Inicial</a></li>
+      <li><a href="#" target="_blank">Sobre</a></li>
+      <li><a href="#" target="_blank">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article class="articles">
+      <div class="articles-h2">
+        <h2>Fatos sobre o Stomatopoda</h2>
+      </div>
+      <div class="mantis-image">
+        <img id="mantis-1"
+          src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/og-mantis-super-poderes-1024x538.png"
+          alt="camarão-mantis">
+      </div>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>Curiosidades gerais:</h3>
+        </div>
+        <p>
+          O peculiar <strong>Stomatopoda</strong>, mais conhecido cientificamente como <em><u>Odontodactylus
+              scyllarus</u></em> é um predador ativo que caça suas presas com o auxílio de um sentido de visão muito
+          apurado e capaz de interpretar polarização no espectro ultravioleta e infravermelho. Apresentam uma grande
+          variação de tamanho, que pode ir de poucos milímetros até aproximadamente 40 cm nas espécies maiores. Eles
+          vivem em fundo consolidado, lodoso ou ainda arenoso, onde cavam seus buracos ou aproveitam-se dos orifícios
+          deixados por outros animais para neles se instalar. São animais exclusivamente carnívoros, alimentando-se de
+          camarões, caranguejos, moluscos, peixes e até mesmo outros da mesma ordem. A fêmea dessa espécie desova no
+          local onde se abriga e, em caso de perigo, enrola os ovos como uma bola, prendendo-os junto ao corpo até
+          encontrar um abrigo mais protegido.
+        </p>
+        <div id="table">
+          <div id="table-title">
+            <h4>Classificação científica</h4>
+          </div>
+          <table>
+            <tr>
+              <th>Reino</th>
+              <th>Filo</th>
+              <th>Subfilo</th>
+              <th>Classe</th>
+              <th>Subclasse</th>
+              <th>Ordem</th>
+            </tr>
+            <tr>
+              <td>Animali</td>
+              <td>Arthropoda</td>
+              <td>Crustacea</td>
+              <td>Malacostraca</td>
+              <td>Hoplocarida</td>
+              <td>Stomatopoda</td>
+            </tr>
+          </table>
+        </div>
+        <div class="mantis-image">
+          <img src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/Camarao-Mantis-perfurador-esmagador.png"
+            alt="camarão-mantis">
+        </div>
+      </section>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>O camarão CAMPEÃO</h3>
+        </div>
+        <p>O Camarão Mantis esmagador possui dois apêndices bem desenvolvidos <em>(semelhantes a um martelo)</em>,
+          chamados de Porretes de Dáctilo. Com essas “super patas” o animal espanca e esmaga suas presas em uma
+          intensidade de aproximadamente 60 kg/cm² <em>(daí o motivo de um de seus nomes ser lagosta-boxeadora)</em>.
+        </p>
+        <div class="mantis-image">
+          <img src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/animal-mais-forte-mundo-1024x734.png"
+            alt="camarão-mantis">
+        </div>
+      </section>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>O camarão mais RÁPIDO</h3>
+        </div>
+        <p>Além da enorme potência de seu soco, esse animal consegue movimentar seus apêndices tal qual um tiro de arma
+          de fogo: seu golpe pode chegar a uma velocidade <strong> 720 km/h</strong>. Curiosamente, tanto a força quanto
+          rapidez do ataque, não danificam sua estrutura corporal.
+        </p>
+        <div class="mantis-image">
+          <img src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/Animal-mais-rapido-1024x734.png"
+            alt="camarão-mantis">
+        </div>
+      </section>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>O camarão IMPENETRÁVEL</h3>
+        </div>
+        <p>Devido a habilidades tão únicas, pesquisadores de diversas partes do planeta realizam estudos com o objetivo
+          de entender o mecanismo da força de ataque e o motivo da resiliência do Camarão Mantis quanto ao forte
+          impacto.
+        </p>
+        <div class="mantis-image">
+          <img src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/Durabilidade-camarao-mantis-1024x734.png"
+            alt="camarão-mantis">
+        </div>
+      </section>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>O camarão com a VISÃO ALÉM DO ALCANCE</h3>
+        </div>
+        <p>
+          Uma das espécies de camarão mantis <u><em>(Gonodactylus smithii)</u></em> têm os olhos mais complexos do reino
+          animal e é capaz de ver cores invisíveis a vários outros animais, do ultravioleta ao infravermelho. A
+          descoberta foi
+          anunciada por cientistas suíços e australianos.
+        </p>
+        <p>
+          Muito além de suas peculiaridades motoras, o Camarão Mantis apresenta uma extensa gama de características
+          únicas. A mais emblemática delas, é o fato de que possui o mais complexo sistema de visão de cores do mundo
+          animal, conseguindo processar 16 cores ao todo.
+        </p>
+        <div class="mantis-image">
+          <img src="https://www.aquaa3.com.br/wp-content/uploads/2020/09/camarao-mantis-super-visao-1024x907.png" alt="camarão-mantis">
+        </div>
+        <p>Enquanto
+          nós humanos conseguimos processar somente três tipos de cores primárias (<span id="red">vermelho </span>,
+          <span id="green">verde</span> e <span id="blue">azul</span>), esse distinto animal é capaz de enxergar 12
+          cores primárias porque possui 12 cones de percepção de cor. Os quatro cones restantes, lhe permite enxergar
+          imagens multiespectrais, como a luz ultravioleta.
+        </p>
+      </section>
+      <section class="description-container">
+        <div class="articles-h3">
+          <h3>O camarão que NÃO É CAMARÃO</h3>
+        </div>
+        <p>Você não leu errado. Apesar de seu homônimo, o Camarão Mantis é uma espécie de crustáceo da ordem dos
+          Estomatópodes (Stomatopoda) <em>- parentes distantes de caranguejos, camarões e lagostas -</em>, e contam com
+          mais de 400 espécies diferentes. Ele também é conhecido pelos nomes:
+        </p>
+        <ul>
+          <li>lacraia-do-mar</li>
+          <li>tamarutaca </li>
+          <li>tamburutaca</li>
+          <li>esquila</li>
+          <li>lagosta-mantis</li>
+          <li>lagosta-boxeadora</li>
+          <li>shrimp mantis</li>
+        </ul>
+        <div class="mantis-image">
+          <img src="https://img.ibxk.com.br/2013/4/materias/961713491012231.jpg?w=1040" alt="camarão-mantis">
+        </div>
+        <p>
+          Uma das espécies mais famosas, é o esmagador Camarão-Louva-a-Deus-Palhaço <em><u>(Odontodactylus
+              scyllarus)</u></em>, muito
+          semelhante a um louva-deus, conhecido por sua beleza e periculosidade em aquários de água salgada.
+        </p>
+      </section>
+      <section id="references">
+        <div class="articles-h4">
+          <h4>Referências e fontes</h4>
+          <p>Texto e imagens retirados do site da <a
+              href="https://www.aquaa3.com.br/curiosidades-camarao-mantis/">Aquaa3</a> e <a
+              href="https://pt.wikipedia.org/wiki/Stomatopoda">Wikipédia</a>.
+          </p>
+          <p><small><em>O intuito da construção desse site é apenas educativo, a fim de treinar as habilidades
+                adquiridas no decorrer do curso até o presente momento.</em></small>
+          </p>
+        </div>
+      </section>
+    </article>
+    <div id="lateral-bar">
+      <aside>
+        <p> <strong>Veja <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" target="_blank">AQUI</a> o nosso famoso
+            camarão em ação!</strong>
+        </p>
+      </aside>
+    </div>
+  </main>
+  <footer>
+    <h4>"Conteúdo compilado por Jonathas Assis de Oliveira, 2022".</h4>
+  </footer>
+</body>
+</html>
