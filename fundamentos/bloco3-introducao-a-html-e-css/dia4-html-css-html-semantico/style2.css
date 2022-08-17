@@ -9,6 +9,7 @@ h2,
 h3,
 h4 {
   font-family: 'Permanent Marker', cursive;
+  color: white;
 }
 
 #menu li a {
@@ -65,23 +66,36 @@ header h1 {
 .articles {
   position: absolute;
   width: 84%;
-  border: 2px solid rgb(0, 17, 255);
-
 }
 
-.articles h2 {
-  border: 2px solid rgb(0, 17, 255);
-
+.articles-h2 {
+  font-size: 20px;
+  background-color: #292522;
 }
 
-.articles h3 {
-  border: 2px solid rgb(0, 17, 255);
-
+.articles-h2 h2 {
+  margin-left: 10px;
+  padding: 5px;
 }
 
-.description-container {
-  border: 2px solid rgb(0, 17, 255);
+.articles-h3{
+  font-size: 20px;
+  background-color: #292522;
+}
 
+.articles-h3 h3 {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.articles-h4{
+  font-size: 20px;
+  background-color: #292522;
+}
+
+.articles-h4 h4 {
+  margin-left: 10px;
+  padding: 5px;
 }
 
 /* 2 - TABELA */
