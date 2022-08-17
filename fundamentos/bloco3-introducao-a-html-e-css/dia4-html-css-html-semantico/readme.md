@@ -1,7 +1,8 @@
-# Exercício referente ao dia 4 do bloco 3 de fundamentos.
+# Exercício referente ao dia 4 do bloco 3 de fundamentos. :heavy_check_mark:
 
-#### Estruturação de um site utilizando adequadamente o conhecimento de tags semânticas
+#### Estruturação de um site utilizando adequadamente o conhecimento de tags semânticas.
 
+:arrow_down:
 ## 
 
 
