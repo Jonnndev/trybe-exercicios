@@ -9,14 +9,11 @@ h2,
 h3,
 h4 {
   font-family: 'Permanent Marker', cursive;
-
 }
 
 #menu li a {
   font-family: 'Permanent Marker', cursive;
-
 }
-
 
 /* CABEÇALHO */
 
@@ -39,19 +36,25 @@ header h1 {
   font-size: 20px;
   text-align: center;
   background-color: #a39081;
-
 }
 
 #menu li {
   list-style: none;
   display: inline-block;
-  margin: auto;
   padding: 10px;
+  margin-right: 60px;
+  width: 170px;
 }
 
 #menu li a {
   text-decoration: none;
-  color: black;
+  color: #292522;
+  padding: 10px;
+}
+
+#menu li:hover {
+  background-color: #4d6160;
+  transition: 0.3s;
 }
 
 /* ARTIGOS */
