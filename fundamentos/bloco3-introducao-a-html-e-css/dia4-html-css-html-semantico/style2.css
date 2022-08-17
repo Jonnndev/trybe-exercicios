@@ -60,7 +60,7 @@ header h1 {
 
 /* ARTIGOS */
 
-/* 1- SEÇÃO GERAL*/
+/* 1- SEÇÃO GERAL - TITULOS E PARÁGRAFOS*/
 
 
 .articles {
@@ -76,6 +76,7 @@ header h1 {
 .articles-h2 h2 {
   margin-left: 10px;
   padding: 5px;
+  text-align: center;
 }
 
 .articles-h3{
@@ -86,6 +87,7 @@ header h1 {
 .articles-h3 h3 {
   margin-left: 10px;
   padding: 5px;
+  text-align: center;
 }
 
 .articles-h4{
@@ -96,6 +98,15 @@ header h1 {
 .articles-h4 h4 {
   margin-left: 10px;
   padding: 5px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 10px;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 /* 2 - TABELA */
