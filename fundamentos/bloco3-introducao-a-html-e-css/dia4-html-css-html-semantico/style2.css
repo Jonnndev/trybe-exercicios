@@ -39,7 +39,6 @@ header h1 {
 /* MENU */
 
 #menu {
-  font-size: 20px;
   text-align: center;
   background-color: #a39081;
 }
@@ -49,8 +48,9 @@ header h1 {
   display: inline-block;
   padding: 10px;
   margin-right: 60px;
-  width: 170px;
+  width: 200px;
   text-align: center;
+  font-size: 25px;
 }
 
 #menu li a {
