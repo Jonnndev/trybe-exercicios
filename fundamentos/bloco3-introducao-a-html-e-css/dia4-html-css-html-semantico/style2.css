@@ -50,6 +50,7 @@ header h1 {
   padding: 10px;
   margin-right: 60px;
   width: 170px;
+  text-align: center;
 }
 
 #menu li a {
@@ -126,6 +127,20 @@ p {
   font-size: 18px;
 }
 
+#red{
+  color: red;
+  font-weight: 600;
+}
+
+#blue{
+  color: blue;
+  font-weight: 600;
+}
+
+#green{
+  color: green;
+  font-weight: 600;
+}
 
 /* 2 - TABELA */
 
@@ -164,6 +179,7 @@ img {
   width: 600px;
   border: 1px solid black;
   border-radius: 5%;
+  margin-top: 10px;
 }
 
 #mantis-1 {
