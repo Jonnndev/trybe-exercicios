@@ -95,15 +95,27 @@ header h1 {
   text-align: center;
 }
 
-.articles-h4{
+.articles-h4 h4 {
   font-size: 20px;
+  text-align: center;
   background-color: #292522;
 }
 
-.articles-h4 h4 {
-  margin-left: 10px;
-  padding: 5px;
-  text-align: center;
+.articles-h4 p {
+  line-height: 5px;
+}
+
+.articles-h4 a {
+  line-height: 5px;
+  text-decoration: none;
+  color: #292522;
+  font-weight: 700;
+}
+
+.articles-h4 a:hover {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s;
 }
 
 p {
@@ -113,6 +125,7 @@ p {
   text-align: justify;
   font-size: 18px;
 }
+
 
 /* 2 - TABELA */
 
