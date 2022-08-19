@@ -5,7 +5,7 @@
 
 Nesse bloco aprendi sobre: :arrow_down:
 
-- [x] As principais tags do HTML para criar a estrutura de páginas web; :white_check_mark:
+- [x] As principais tags do HTML para criar a estrutura de páginas web; :rocket:
 
 - [x] Como usar o CSS para estilizar essas tags, usando diferentes formas de selecionar os elementos HTML; :rocket:
 
