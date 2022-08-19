@@ -16,6 +16,6 @@ Nesse bloco aprendi sobre: :arrow_down:
 
 Tendo isso em mente aqui vocês encontrarão exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo desse bloco. Além disso também desenvolvi o projeto ao final de bloco para avaliar tudo o que havia aprendido.
 
-- Você pode acessa-lo diretamente em minha ágina [aqui](https://jonnoliveira.github.io/lessons-learned/:target="_blank"); :fire:
+- Você pode acessa-lo diretamente em minha ágina [aqui](https://jonnoliveira.github.io/lessons-learned/){:target="_blank" rel="noopener"}; :fire:
 - Ou no meu portfólio por [aqui](https://github.com/jonnoliveira/Trybe-project-lessons-learned); :memo:
 #
