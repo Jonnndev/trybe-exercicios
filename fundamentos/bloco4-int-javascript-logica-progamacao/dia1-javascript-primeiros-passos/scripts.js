@@ -1,4 +1,23 @@
 // ATIVIDADE PRÁTICA DO DIA
+// 1 - Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+let a = 10;
+let b = 4;
+let adicao;
+// Adição (a + b)
+adicao = a + b;
+console.log(adicao);
+// Subtração (a - b)
+adicao = a - b;
+console.log(adicao);
+// Multiplicação (a * b)
+adicao = a * b;
+console.log(adicao);
+// Divisão (a / b)
+adicao = a / b;
+console.log(adicao);
+// Módulo (a % b)
+adicao = a % b;
+console.log(adicao);
 
 // ATIVIDADE DO CONTEÚDO
 // // ATV1
