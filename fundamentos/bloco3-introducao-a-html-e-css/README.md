@@ -1,6 +1,6 @@
 # BLOCO 3 - HTML E CSS :computer:
 
-## Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). :green_heart:
+## Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
 #
 
 Nesse bloco aprendi sobre: :arrow_down:
