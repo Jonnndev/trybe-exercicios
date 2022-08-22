@@ -83,7 +83,7 @@ console.log('Exercicio 8');
 
 let newArray = [];
 let first = 0;
-for (let index = 0; index < 25; index += 1){
+for (let index = 0; index < 25; index += 1) {
   newArray.push(first += 1);
 }
 console.log(newArray);
@@ -94,6 +94,67 @@ console.log('Exercicio 9');
 
 let results = 0;
 let item = 0;
-for (let index = 0; index < newArray.length; index += 1){
+for (let index = 0; index < newArray.length; index += 1) {
   console.log(newArray[index] + ' / por 2 = ' + newArray[index] / 2);
 }
+
+// >>>>>>   BONUS <<<<<<
+// Para os próximos dois exercícios leia este artigo e tente entender o que está acontencedo no código abaixo:
+// for (let index = 1; index < array.length; index += 1) {
+//   for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+//     if (array[index] < array[secondIndex]) {
+//       let position = array[index];
+//       array[index] = array[secondIndex];
+//       array[secondIndex] = position;
+//     }
+//   }
+// }
+
+let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// 1 - Ordene o array numbers2 em ordem crescente e imprima seus valores;
+console.log('Exercicio Bonus - 1');
+
+for (let i = 1; i < numbers2.length; i += 1) {
+  for (let j = 0; j < i; j += 1) {
+    if (numbers2[i] < numbers2[j]) {
+      let position = numbers2[i];
+      numbers2[i] = numbers2[j];
+      numbers2[j] = position;
+    }
+  }
+}
+console.log(numbers2);
+
+// 2 - Ordene o array numbers em ordem decrescente e imprima seus valores;
+let numbers3 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+console.log('Exercicio Bonus - 2');
+
+for (let i = numbers3.length - 2; i >= 0; i -= 1) {
+  for (let j = numbers3.length - 1; j >= i; j -= 1) {
+    if (numbers3[i] < numbers3[j]) {
+      let position = numbers3[i];
+      numbers3[i] = numbers3[j];
+      numbers3[j] = position;
+    }
+  }
+}
+console.log(numbers3);
+
+// 3 - Agora crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
+
+
+// [45, 27, 57, 1330, 560, 800, 200, 70, 945, 54]
+
+let numbers4 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+console.log('Exercicio Bonus - 3');
+
+let newArray2 = [];
+
+for (let i = 0; i < numbers2.length; i += 1) {
+  newArray2.push(numbers4[i] * numbers4[i + 1]);
+  if (numbers4[i] === numbers4.length - 1) {
+    newArray2.push(numbers4[numbers4.length - 1] * 2);
+  }
+
+}
+console.log(newArray2);
