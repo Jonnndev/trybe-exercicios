@@ -25,8 +25,6 @@ console.log(invert);
 // ATIVIDADE 3
 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
-
-// Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
 console.log('EXERCÍCIO 3');
 
 // MAIOR ITEM
@@ -161,7 +159,6 @@ console.log('BONUS 3');
 //   ***
 //  ****
 // *****
-// Atenção! Note que esse exercício é bem mais complexo que o anterior! Não basta, aqui, imprimir somente asteriscos. Você precisará de uma lógica para imprimir espaços também.
 
 let u = 5;
 let v = '';
