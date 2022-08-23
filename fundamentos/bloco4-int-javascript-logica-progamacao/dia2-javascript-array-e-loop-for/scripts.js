@@ -18,7 +18,6 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(soma);
 
 // ATIVIDADE 3
-// A média aritmética é o resultado da soma de todos os elementos divido pelo número total de elementos.
 let sum = 0;
 let mediaArit;
 
@@ -102,7 +101,6 @@ for (let index = 0; index < newArray.length; index += 1) {
 // BONUS 1
 
 let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-// 1 - Ordene o array numbers2 em ordem crescente e imprima seus valores;
 console.log('Exercicio Bonus - 1');
 
 for (let i = 1; i < numbers2.length; i += 1) {
