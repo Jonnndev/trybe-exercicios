@@ -85,3 +85,89 @@ console.log('Menor = ', menor);
 // }
 
 // console.log(menor, maior);
+
+// 4- Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50.
+console.log('EXERCÍCIO 4');
+
+let n = 2;
+let maiorPrimo;
+let sum = 0;
+
+for (let i = 2; i <= 50; i += 1) {
+  if (n === 2 || n === 3 || n === 5 || n === 7) {
+    maiorPrimo = n;
+    sum += 1;
+  }
+
+  else if (n % 2 !== 0 && n % 3 !== 0 && n % 5 !== 0 && n % 7 !== 0) {
+    maiorPrimo = n;
+    sum += 1;
+
+  }
+  n += 1;
+}
+
+console.log('Existem ', sum, ' números primos entre 2 e 50.');
+console.log(maiorPrimo, ' é o maior primo!');
+
+// >>>>>> BONUS <<<<<<
+
+// // 1- Agora vamos trabalhar com algumas formas geométricas! Faça um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+console.log('BONUS 1');
+
+// Exemplo:
+// n = 5
+
+// *****
+// *****
+// *****
+// *****
+// *****
+
+let q = 5;
+let r = '';
+
+for (let linha = 1; linha <= q; linha += 1) {
+  for (let coluna = 1; coluna <= q; coluna += 1) {
+    r += '*';
+  }
+  console.log(r);
+  r = '';
+}
+
+// 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+console.log('BONUS 2');
+
+// Exemplo:
+// n = 5
+
+// *
+// **
+// ***
+// ****
+// *****
+
+let s = 5;
+let t = '';
+
+for (let linha = 1; linha <= s; linha += 1) {
+  t += '*';
+  console.log(t);
+}
+
+// 3- Agora inverta o lado do triângulo. Por exemplo:
+console.log('BONUS 3');
+
+// n = 5
+
+//     *
+//    **
+//   ***
+//  ****
+// *****
+// Atenção! Note que esse exercício é bem mais complexo que o anterior! Não basta, aqui, imprimir somente asteriscos. Você precisará de uma lógica para imprimir espaços também.
+
+let u = 5;
+let v = '';
+let x = ' ';
+
