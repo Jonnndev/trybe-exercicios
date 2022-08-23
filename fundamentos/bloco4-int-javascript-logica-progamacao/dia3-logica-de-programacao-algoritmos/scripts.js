@@ -1,8 +1,4 @@
-// 1- O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
-
-// O fatorial é representado pelo sinal !
-// // ! = 4 x 3 x 2 x 1 = 24
-// Com base nessas informações, crie um algoritmo que retorne o fatorial de 10.
+// ATIVIDADE 1
 // let n = a * (a - 1) * (a - 2) * (a - 3) * (a - 4) * (a - 5) * (a - 6) * (a - 7) * (a - 8) * (a - 9);
 console.log('EXERCÍCIO 1');
 
@@ -14,10 +10,10 @@ for (let i = 1; i < a; i += 1) {
 }
 console.log(f);
 
-// 2- Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
+// ATIVIDADE 2
 console.log('EXERCÍCIO 2');
 
-// >>>> lenght em uma string é reconhece a letra em particular, permitindo o manejo da mesma.
+// >>>> lenght em uma string reconhece a letra em particular, permitindo o manejo da mesma.
 let word = 'tryber';
 let invert = '';
 
@@ -26,7 +22,7 @@ for (let i = word.length - 1; i >= 0; i -= 1) {
 }
 console.log(invert);
 
-// 3- Considere o array de strings abaixo:
+// ATIVIDADE 3
 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 
@@ -86,7 +82,7 @@ console.log('Menor = ', menor);
 
 // console.log(menor, maior);
 
-// 4- Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50.
+// ATIVIDADE 4
 console.log('EXERCÍCIO 4');
 
 let n = 2;
@@ -112,7 +108,7 @@ console.log(maiorPrimo, ' é o maior primo!');
 
 // >>>>>> BONUS <<<<<<
 
-// // 1- Agora vamos trabalhar com algumas formas geométricas! Faça um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+// BONUS 1
 console.log('BONUS 1');
 
 // Exemplo:
@@ -135,7 +131,7 @@ for (let linha = 1; linha <= q; linha += 1) {
   r = '';
 }
 
-// 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+// BONUS 2
 console.log('BONUS 2');
 
 // Exemplo:
@@ -155,7 +151,7 @@ for (let linha = 1; linha <= s; linha += 1) {
   console.log(t);
 }
 
-// 3- Agora inverta o lado do triângulo. Por exemplo:
+// BONUS 3
 console.log('BONUS 3');
 
 // n = 5
