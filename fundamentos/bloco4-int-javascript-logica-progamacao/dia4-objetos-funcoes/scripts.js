@@ -277,26 +277,79 @@
 // // >>> join(''): junta novamente as substrings em uma unica string. 
 
 // // // 2
-// console.log('EX PT 2 - 2)
+// console.log('EX PT 2 - 2');
 
-array = [2, 3, 6, 7, 10, 1];
+// array = [2, 3, 6, 7, 10, 1];
 
 // function maiorValorIndex(int) {
-
-//   for (let i = 1; i < array.length; i += 1) {
-//     let index = 0;
-//     if ()
+//   let maior;
+//   for (let i = 0; i < array.length; i += 1) {
+//     for (let i2 = 0; i2 < array.length; i2 += 1) {
+//       if (array[i] > array[i2])
+//         maior = array[i];
+//     }
 //   }
+//   return array.indexOf(maior);
 // }
 
-console.log(array);
+// console.log(maiorValorIndex(array));
 
-// for (let i2 = 0; i2 < array.length; i2 += 1) {
-//   if (array[i] < array[i2]) {
-//     let position = array[i];
-//     array[i] = array[i2];
-//     array[i2] = position;
+// // // 3
+// console.log('EX PT 2 - 3');
+
+// array = [2, 4, 6, 7, 10, 0, -3];
+
+// function menorValorIndex(int) {
+//   let menor;
+//   for (let i = 0; i < array.length; i += 1) {
+//     for (let i2 = 0; i2 < array.length; i2 += 1) {
+//       if (array[i] < array[i2])
+//         menor = array[i];
+//     }
 //   }
+//   return array.indexOf(menor);
 // }
+
+// console.log(menorValorIndex(array));
+
+// // 4
+// console.log('EX PT 2 - 4');
+
+// nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+
+// function maiorPalavra(int) {
+
+//   let maior;
+//   for (let i = 0; i < nomes.length; i += 1) {
+//     for (let i2 = 1; i2 < nomes.length; i2 += 1) {
+//       if (nomes[i].split('').length > nomes[i2].split('').length) {
+//         maior = nomes[i];
+//       }
+//     }
+//   }
+//   return maior;
 // }
+
+// console.log(maiorPalavra(nomes));
+
+// 5
+console.log('EX PT 2 - 5');
+
+numeros = [2, 3, 2, 5, 8, 2, 3];
+let maisRepete = 0;
+let numRepete;
+
+for (let i = 0; i < numeros.length; i += 1) {
+  for (let i2 = 0; i2 < numeros.length; i2 += 1) {
+
+    if (numeros[i] === numeros[i2]) {
+      maisRepete += 1;
+      numRepete = numeros[i];
+    }
+  }
+}
+console.log(maisRepete);
+console.log(numRepete);
+
+
 
