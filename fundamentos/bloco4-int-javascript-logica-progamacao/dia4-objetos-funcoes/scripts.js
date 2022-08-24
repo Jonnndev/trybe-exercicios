@@ -180,9 +180,8 @@
 // }
 
 // console.log(triangle(35, 90, 55));
-// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VAMOS PRATICAR 4.4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VAMOS PRATICAR 4.4 - EXERCICIO PARTE 1 - OBJETOS E FOR/IN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// // // EXERCICIO PT1
 // // // 1
 // console.log('EX PT 1 - 1')
 
@@ -261,4 +260,43 @@
 // console.log('EX PT 1 - 8')
 
 // console.log(leitor.nome, 'tem', leitor.livrosFavoritos.length, 'livros favoritos');
+
+// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VAMOS PRATICAR 4.4 - EXERCICIO PARTE 2 - FUNÇÕES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// // // 1
+// console.log('EX PT 2 - 1)
+
+// function verificaPalindrome(str) {
+//   return str === str.split('').reverse().join('')
+// }
+
+// console.log(verificaPalindrome('arara'));
+
+// // >>> split(''): parte string em substrings e coloca cada parte em um array separadamente.
+// // >>> reverse: reverte as ordem da posição desse array.
+// // >>> join(''): junta novamente as substrings em uma unica string. 
+
+// // // 2
+// console.log('EX PT 2 - 2)
+
+array = [2, 3, 6, 7, 10, 1];
+
+// function maiorValorIndex(int) {
+
+//   for (let i = 1; i < array.length; i += 1) {
+//     let index = 0;
+//     if ()
+//   }
+// }
+
+console.log(array);
+
+// for (let i2 = 0; i2 < array.length; i2 += 1) {
+//   if (array[i] < array[i2]) {
+//     let position = array[i];
+//     array[i] = array[i2];
+//     array[i2] = position;
+//   }
+// }
+// }
 
