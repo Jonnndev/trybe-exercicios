@@ -180,4 +180,85 @@
 // }
 
 // console.log(triangle(35, 90, 55));
+// // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VAMOS PRATICAR 4.4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// // // EXERCICIO PT1
+// // // 1
+// console.log('EX PT 1 - 1')
+
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+// };
+
+// console.log('Bem vinda', info.personagem);
+
+// // // 2
+// console.log('EX PT 1 - 2')
+
+// info['recorrente'] = 'Sim';
+// console.log(info);
+
+
+// // // 3
+// console.log('EX PT 1 - 3')
+
+// for (index in info) {
+//   console.log(index);
+// }
+
+// // // 4
+// console.log('EX PT 1 - 4')
+
+// for (index in info) {
+//   console.log(info[index]);
+// }
+
+// // // 5
+// console.log('EX PT 1 - 5')
+
+// let infoDois = {
+//   personagem: 'Tio Patinhas',
+//   origem: "Christmas on Bear Mountain, Dell's Four Color Comics #178",
+//   nota: 'O último MacPatinhas',
+//   recorrente: 'Sim'
+// };
+
+// for (index in infoDois) {
+//   if (recorrente === 'Sim') {
+//     recorrente = 'Ambos recorrentes'; <<<<<<<<<<????
+//   }
+//   console.log(info[index], 'e', infoDois[index]);
+// }
+
+// // // 6
+// console.log('EX PT 1 - 6')
+
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
+
+// console.log('O livro favorito de', leitor.nome, leitor.sobrenome, 'se chama', leitor.livrosFavoritos[0].titulo);
+
+// // // 7
+// console.log('EX PT 1 - 7')
+
+// leitor.livrosFavoritos.push({titulo: 'Harry Potter e o Prisioneiro de Azkaban',autor: 'JK Rowling', editora: 'Rocco',});
+
+// console.log(leitor.livrosFavoritos);
+
+// // // 8
+// console.log('EX PT 1 - 8')
+
+// console.log(leitor.nome, 'tem', leitor.livrosFavoritos.length, 'livros favoritos');
 
