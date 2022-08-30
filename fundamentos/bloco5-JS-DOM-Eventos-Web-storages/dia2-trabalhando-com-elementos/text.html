@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.2</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // COLOQUE SEU CÓDIGO AQUI
+
+    // EXERCICIO 1
+    let h1 = document.createElement('h1');
+    h1.innerText = "Exercício 5.2 - JavaScript DOM";
+    document.body.appendChild(h1);
+    // EXERCICIO 2
+    let main = document.createElement('main');
+    main.className = "main-content";
+    document.body.appendChild(main);
+    // EXERCICIO 3
+    let section = document.createElement("section");
+    section.className = "center-content";
+    document.getElementsByClassName("main-content")[0].appendChild(section);
+    // DICA >>> NÃO ESQUECER QUE EM CLASS RETORNA ARRAY
+    // EXERCICIO 4
+    let p = document.createElement("p");
+    p.innerText = "Resolvendo exercício de modificação e implementação da árvore DOM do dia 5.2. Complexo, mas interessante. Necessário prática."
+    document.getElementsByTagName("section")[0].appendChild(p);
+    // DICA >>> NÃO ESQUECER QUE EM TAG RETORNA ARRAY
+    // EXERCICIO 5
+    let sectionLeft = document.createElement("section");
+    sectionLeft.className = "left-content";
+    document.getElementsByTagName("main")[0].appendChild(sectionLeft);
+    // EXERCICIO 6
+    let sectionRight = document.createElement("section");
+    sectionRight.className = "right-content";
+    document.getElementsByTagName("main")[0].appendChild(sectionRight);
+    // EXERCICIO 7
+    let img = document.createElement("img");
+    img.className = "small-image";
+    img.setAttribute("src", "https://picsum.photos/200");
+    document.getElementsByClassName("left-content")[0].appendChild(img);
+    // EXERCICIO 8
+    let list = document.createElement("ul");
+    document.getElementsByClassName("right-content")[0].appendChild(list);
+
+    let itens1 = document.createElement("li");
+    let itens1a = document.createTextNode("um");
+    itens1.appendChild(itens1a);
+    document.getElementsByTagName("ul")[0].appendChild(itens1);
+
+    let itens2 = document.createElement("li");
+    let itens2a = document.createTextNode("dois");
+    itens2.appendChild(itens2a);
+    document.getElementsByTagName("ul")[0].appendChild(itens2);
+
+    let itens3 = document.createElement("li");
+    let itens3a = document.createTextNode("três");
+    itens3.appendChild(itens3a);
+    document.getElementsByTagName("ul")[0].appendChild(itens3);
+
+    let itens4 = document.createElement("li");
+    let itens4a = document.createTextNode("quatro");
+    itens4.appendChild(itens4a);
+    document.getElementsByTagName("ul")[0].appendChild(itens4);
+
+    let itens5 = document.createElement("li");
+    let itens5a = document.createTextNode("cinco");
+    itens5.appendChild(itens5a);
+    document.getElementsByTagName("ul")[0].appendChild(itens5);
+
+    let itens6 = document.createElement("li");
+    let itens6a = document.createTextNode("seis");
+    itens6.appendChild(itens6a);
+    document.getElementsByTagName("ul")[0].appendChild(itens6);
+
+    let itens7 = document.createElement("li");
+    let itens7a = document.createTextNode("sete");
+    itens7.appendChild(itens7a);
+    document.getElementsByTagName("ul")[0].appendChild(itens7);
+
+    let itens8 = document.createElement("li");
+    let itens8a = document.createTextNode("oito");
+    itens8.appendChild(itens8a);
+    document.getElementsByTagName("ul")[0].appendChild(itens8);
+
+    let itens9 = document.createElement("li");
+    let itens9a = document.createTextNode("nove");
+    itens9.appendChild(itens9a);
+    document.getElementsByTagName("ul")[0].appendChild(itens9);
+
+    let itens10 = document.createElement("li");
+    let itens10a = document.createTextNode("dez");
+    itens10.appendChild(itens10a);
+    document.getElementsByTagName("ul")[0].appendChild(itens10);
+    // EXERCICIO 9
+
+    let h3_1 = document.createElement("h3");
+    h3_1.innerText = "Primeiro texto h3 do exercicio";
+    document.getElementsByClassName("main-content")[0].appendChild(h3_1);
+
+    let h3_2 = document.createElement("h3");
+    h3_2.innerText = "Segundo texto h3 do exercicio";
+    document.getElementsByClassName("main-content")[0].appendChild(h3_2);
+
+    let h3_3 = document.createElement("h3");
+    h3_3.innerText = "Terceiro texto h3 do exercicio";
+    document.getElementsByClassName("main-content")[0].appendChild(h3_3);
+    // EXERCICIO 1
+    h1.className = "title";
+    // EXERCICIO 2
+    h3_1.className = "description";
+    h3_2.className = "description";
+    h3_3.className = "description";
+    // EXERCICIO 3
+    let x = document.getElementsByClassName("main-content")[0].children[1];
+    document.getElementsByClassName("main-content")[0].removeChild(x);
+    // EXERCICIO 4
+    sectionRight.style.marginRight = "auto";
+    // EXERCICIO 5
+    document.getElementsByClassName("center-content")[0].style.backgroundColor = "green";
+    // EXERCICIO 6
+    document.getElementsByTagName("ul")[0].lastChild.remove();
+    document.getElementsByTagName("ul")[0].lastChild.remove();
+
+    
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
