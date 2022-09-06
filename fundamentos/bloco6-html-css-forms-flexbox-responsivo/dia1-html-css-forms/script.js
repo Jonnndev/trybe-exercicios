@@ -15,5 +15,3 @@ function check() {
   }
 }
 btnSend.addEventListener('click', check);
-
-console.log(inputEmailValue);
