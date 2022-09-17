@@ -33,7 +33,7 @@
 
 // Crie uma função que retorne um array em ordem crescente.
 
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 // const sortOddsAndEvens = oddsAndEvens.sort(function (a,b) {
 //   if (a > b) return 1;
@@ -43,9 +43,9 @@ const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 // console.log(oddsAndEvens);
 
-const sortOddsAndEvens = oddsAndEvens.sort((a, b) => a - b);
+// const sortOddsAndEvens = oddsAndEvens.sort((a, b) => a - b);
 
-console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`);
+// console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`);
 
 // EX1 - pt2
 // Crie uma função que receba um número e retorne seu fatorial.
@@ -59,12 +59,12 @@ console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescen
 // }
 // console.log(`Esse é o fatorial ${factorial(5)}`);
 
-const factorial = (n) => (n == 1 || n == 0) ? 1 : n * factorial(n - 1);
-console.log(`Esse é o fatorial ${factorial(3)}`);
+// const factorial = (n) => (n == 1 || n == 0) ? 1 : n * factorial(n - 1);
+// console.log(`Esse é o fatorial ${factorial(3)}`);
 
 // EX2 - pt2
 // Crie uma função que receba uma frase como parâmetro e retorne a maior palavra contida nesta frase.
-const longestWord = 'Antônio foi ao banheiro e não sabemos o que aconteceu'; // retorna 'aconteceu'
+// const longestWord = 'Antônio foi ao banheiro e não sabemos o que aconteceu'; // retorna 'aconteceu'
 // const longestWord = (str) => {
 //   let longestWord2 = '';
 //   let longestWordSplit = str.split(' '); // array com as palavras
@@ -82,3 +82,43 @@ const longestWord = 'Antônio foi ao banheiro e não sabemos o que aconteceu'; /
 
 // método array.sort()
 
+// EX3 - pt2
+
+// const paragraph = document.getElementById('contador-click');
+// const btnClick = document.getElementById('btn-click');
+// let clickCount = 0;
+
+// btnClick.addEventListener('click', fClick => {
+//   clickCount += 1;
+//   paragraph.innerText = clickCount;
+// })
+
+// Ex4 - pt2
+//FUNÇÃO QUE SUBSTITUI 'X' NUMA FRASE 
+
+const substituaX = (nome) => {
+  const frase = 'Tryber x aqui!';
+  let array = frase.split(' ');
+  for (let index in array) {
+    if (array[index] === 'x') {
+      array[index] = nome;
+    }
+  }
+  return `${array[0]}, ${array[1]}, ${array[2]}`;
+}
+
+// console.log(substituaX('Jonathas'));
+
+//FUNÇÃO QUE RECEBE A FUNÇÃO ANTERIOR E RETORNA UMA STRING
+
+const minhasSkills = (substituaX) => {
+  const skills = ['HTML', 'CSS', 'JavaScript'];
+  let retorno = `${substituaX}
+  Minhas três principais habilidades são: 
+  ${skills[0]}
+  ${skills[1]}
+  ${skills[2]}`
+  return retorno;
+}
+
+console.log(minhasSkills(substituaX('Jonathas')));
