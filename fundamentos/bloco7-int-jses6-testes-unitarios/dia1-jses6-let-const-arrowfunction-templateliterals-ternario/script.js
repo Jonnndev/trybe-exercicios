@@ -80,5 +80,4 @@ const longestWord = 'Antônio foi ao banheiro e não sabemos o que aconteceu'; /
 // }
 // console.log(longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu'));
 
-// método array.sort()
-
+// método array.s
