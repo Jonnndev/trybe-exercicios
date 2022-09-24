@@ -1,4 +1,4 @@
-// EXERCICIOS 1 
+// EXERCICIO 1 
 
 const books = [
   {
@@ -72,6 +72,7 @@ const authorBornIn1947 = (array) => {
 
 // console.log(authorBornIn1947(books));
 
+// EXERCICIO 2
 // Retorne o nome do livro de menor nome.
 
 const smallerName = (array) => {
@@ -82,6 +83,7 @@ const smallerName = (array) => {
 
 // console.log(smallerName(books));
 
+// EXERCICIO 3
 // Encontre o primeiro livro cujo nome possui 26 caracteres.
 
 // const expectedResult = {
@@ -98,6 +100,7 @@ const smallerName = (array) => {
 const getNamedBook = (array) => array.find((element) => element.name.length === 26);
 // console.log(getNamedBook(books));
 
+// EXERCICIO 4
 // Ordene os livros por data de lançamento em ordem decrescente.
 
 // const expectedResult = [
@@ -151,6 +154,7 @@ const booksOrderedByReleaseYearDesc = (array) => {
 
 // console.log(booksOrderedByReleaseYearDesc(books));
 
+// EXERCICIO 5
 // Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
 
 // const expectedResult = false;
@@ -159,6 +163,7 @@ const everyoneWasBornOnSecXX = (array) => array.every((object) => object.author.
 
 // console.log(everyoneWasBornOnSecXX(books));
 
+// EXERCICIO 6
 // Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 
 // const expectedResult = true;
@@ -167,6 +172,7 @@ const someBookWasReleaseOnThe80s = (array) => array.some((object) => object.rele
 
 // console.log(someBookWasReleaseOnThe80s(books));
 
+// EXERCICIO 7
 // Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 
 // const expectedResult = false;
