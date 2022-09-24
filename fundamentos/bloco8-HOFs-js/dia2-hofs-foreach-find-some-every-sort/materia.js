@@ -76,6 +76,7 @@ const firstMultipleOf5 = numbers.find((number) => number % 5 === 0);
 
 console.log(firstMultipleOf5);
 // 50
+
 //////////////////////////////////////////////////////////////////////////////
 
 // FOREACH NA TABUADA DE 2
@@ -101,6 +102,7 @@ console.log(names); // [ 'BIANCA', 'CAMILA', 'FERNANDO', 'ANA ROBERTA' ]
 
 // já nesse caso, o foreach passa além do elemento, um indice para a função convertToUpperCase
 // que utiliza esses valores para realizar uma função e alterar os elementos do array.
+
 //////////////////////////////////////////////////////////////////////////////
 
 // FORMAS DE RETORNAR O PRIMEIRO ELEMENTO NO ARRAY QUE SATISFAÇA A CONDIÇÃO
