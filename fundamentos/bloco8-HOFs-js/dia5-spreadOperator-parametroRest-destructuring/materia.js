@@ -196,3 +196,21 @@ const newUser = (id, name, email) => {
 };
 
 console.log(newUser(54, 'isabella', 'isabella@email.com')); // { id: 54, name: 'isabella', email: 'isabella@email.com' }
+
+// DEFAULT PARAMETERS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// const greeting = (user) => console.log(`Welcome ${user}!`);
+
+greeting(); // Welcome undefined! // JÁ QUE O VALOR NÃO FOI PASSADO
+
+const greeting = (user) => {
+  const userDisplay = typeof user === 'undefined' ? 'pessoa usuária' : user;
+  console.log(`Welcome ${userDisplay}!`); // CRIA UM DEFAULT CASO O USER NÃO SEJA PASSADO
+};
+
+greeting(); // Welcome pessoa usuária!
+
+// RESUMINDO O CODIGO ANTERIOR
+
+const greeting = (user = 'pessoa usuária') => console.log(`Welcome ${user}!`);
+greeting(); // // Welcome pessoa usuária!
