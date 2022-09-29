@@ -1,4 +1,4 @@
-# BLOCO 3 - Introdução à HTML e CSS:
+# SEÇÃO 3 - Introdução à HTML e CSS:
 
 ## DIA 1 - Estruturas de página :green_heart:
 
