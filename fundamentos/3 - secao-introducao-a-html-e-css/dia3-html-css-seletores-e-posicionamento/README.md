@@ -1,4 +1,4 @@
-# BLOCO 3 - Introdução à HTML e CSS:
+# SEÇÃO 3 - Introdução à HTML e CSS:
 
 ## DIA 3 - Seletores e Posicionamento :green_heart:
 
