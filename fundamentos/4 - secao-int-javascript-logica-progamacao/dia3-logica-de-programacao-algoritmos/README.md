@@ -1,4 +1,4 @@
-# BLOCO 4 - INTRODUÇÃO A JAVASCRIPT :computer:
+# SEÇÃO 4 - INTRODUÇÃO A JAVASCRIPT :computer:
 
 ## DIA 3 - Lógica de Programação :green_heart:
 
