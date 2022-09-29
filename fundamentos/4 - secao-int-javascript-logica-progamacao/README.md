@@ -1,9 +1,9 @@
-# BLOCO 4 - INTRODUÇÃO A JAVASCRIPT :computer:
+# SEÇÃO 4 - INTRODUÇÃO A JAVASCRIPT :computer:
 
-## Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
+## Essa seção pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
 #
 
-Nesse bloco aprendi sobre: :arrow_down:
+Nessa seção aprendi sobre: :arrow_down:
 
 - [x]  Variáveis, constantes, tipos primitivos, tipagem dinâmica, operadores aritméticos, operadores de atribuição, operadores lógicos, if/else e switch/case; :rocket:
 
