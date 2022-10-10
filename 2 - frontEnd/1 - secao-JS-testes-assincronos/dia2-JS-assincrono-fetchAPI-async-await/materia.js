@@ -31,7 +31,7 @@
 
 // Chuck Norris can write multi-threaded applications with a single thread.
 
-// 1- MESCLANDO
+// 1- MESCLANDO COM .THEN E .CATCH
 
 // const fetch = require('node-fetch');
 
@@ -50,7 +50,7 @@
 
 // Chuck Norris can write multi-threaded applications with a single thread.
 
-// 2 - REFATORAND0
+// 2 - REFATORAND0 COM TRY E CATCH
 
 const fetch = require('node-fetch');
 
@@ -69,3 +69,4 @@ const fetchJoke = async () => {
 fetchJoke();
 
 // Chuck Norris can write multi-threaded applications with a single thread.
+
