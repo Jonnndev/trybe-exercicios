@@ -75,70 +75,70 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [ ] 1-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 1-2: _JavaScript Promises_
+- [ ] 1-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Seção 2: Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [ ] 2-1: _Primeiros passos no Jest_
+- [ ] 2-2: _Jest - Testes Assíncronos_
+- [ ] 2-3: _Jest - Simulando comportamentos_
+- [ ] 2-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ##### Seção 3: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [ ] 3-1: _'Hello, world!' no React!_
+- [ ] 3-2: _Componentes React_
+- [ ] 3-3: _[Projeto - Movie Cards Library]()_
 
 ##### Seção 4: React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [ ] 4-1: _Components com estado_
+- [ ] 4-2: _Eventos e formulários no React_
+- [ ] 4-3: _[Projeto - Movie Cards Library Stateful]()_
 
 ##### Seção 5: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [ ] 5-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [ ] 5-2: _Ciclo de vida de componentes em React_
+- [ ] 5-3: _React Router_
+- [ ] 5-4: _[Projeto - Movie Cards Library CRUD]()_
 
 ##### Seção 6: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [ ] 6-1: _Metodologias Ágeis_
+- [ ] 6-2: _[Projeto - Frontend Online Store]()_
 
 ##### Seção 7: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [ ] 7-1: _Testando React com a React Testing Library_
+- [ ] 7-2: _Testando React com a React Testing Library - Parte 2_
+- [ ] 7-3: _[Projeto - Testes em React]()_
 
 ##### Seção 8: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [ ] 8-1: _Introdução ao Redux_
+- [ ] 8-2: _React com Redux - Parte 1_
+- [ ] 8-3: _React com Redux - Prática_
+- [ ] 8-4: _React com Redux - Parte 2_
+- [ ] 8-5: _Testes síncronos com React-Redux_
+- [ ] 8-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Seção 9: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [ ] 9-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Seção 10: React & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ ] 10-1: _Context API do React_
+- [ ] 10-2: _React Hooks - useState e useContext_
+- [ ] 10-3: _React Hooks - useEffect e Hooks customizados_
+- [ ] 10-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Seção 11: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [ ] 11-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
