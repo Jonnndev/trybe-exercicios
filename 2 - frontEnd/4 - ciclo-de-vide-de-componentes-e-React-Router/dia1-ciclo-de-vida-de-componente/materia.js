@@ -55,5 +55,3 @@ componentDidUpdate(prevProps, prevState) {
 
 // Perceba que o estado só é de fato atualizado quando chega no método componentDidUpdate. Por isso, caso seja necessário impedir uma renderização, você deve utilizar o método shouldComponentUpdate, que permite comparar os atuais e próximos estados ou props e adicionar a lógica.
 
-
-
