@@ -1,36 +1,36 @@
 # Checklist do Redux
 
-  * Antes de começar *
-    -[] pensar como será o * formato * do seu estado global
-      - [] pensar quais actions serão necessárias na sua aplicação
+* Antes de começar *
+-[] pensar como será o * formato * do seu estado global
+-[] pensar quais actions serão necessárias na sua aplicação
 
-        * Instalação *
-        -[] npx create - react - app my - app - redux;
+* Instalação *
+-[] npx create - react - app my - app - redux;
 -[] npm install--save redux react - redux;
 -[] npm install--save redux - devtools - extension
 
-  * Criar dentro do diretório `src`:*
-    -[] diretório`redux`
+* Criar dentro do diretório `src`:*
+-[] diretório`redux`
 
-      * Criar dentro do diretório`redux` *
-        -[] diretório`store`
-  - [] diretório`actions`
-    - [] diretório`reducers`
+* Criar dentro do diretório`redux` *
+-[] diretório`store`
+-[] diretório`actions`
+-[] diretório`reducers`
 
-      * Criar dentro do diretório `store`:*
-        -[] arquivo`index.js`.
+* Criar dentro do diretório `store`:*
+-[] arquivo`index.js`.
 
 * Criar dentro do diretório `actions`:*
-  -[] arquivo`index.js`.
+-[] arquivo`index.js`.
 
 * Criar dentro do diretório `reducers`:*
-  -[] arquivo`index.js`.
+-[] arquivo`index.js`.
 
 * Criar dentro do arquivo `redux/store/index.js`:*
-  -[] importar o createStore
-    - [] configurar o[Redux DevTools](https://github.com/reduxjs/redux-devtools)
+-[] importar o createStore
+-[] configurar o[Redux DevTools](https://github.com/reduxjs/redux-devtools)
 -[] importar o rootReducer
-  - [] criar e exportar a store
+-[] criar e exportar a store
 
 Exemplo:
 
@@ -44,11 +44,11 @@ const store = createStore(rootReducer, composeWithDevTools());
 export default store;
 ```
 
-  * Criar dentro do arquivo `redux/reducers/index.js`:*
-    -[] estado inicial
-      - [] criar função reducer com `switch` retornando apenas a opção`default`
-        - [] criar `rootReducer` usando o`combineReducers`
-          - [] exportar`rootReducer`
+* Criar dentro do arquivo `redux/reducers/index.js`:*
+-[] estado inicial
+-[] criar função reducer com `switch` retornando apenas a opção`default`
+-[] criar `rootReducer` usando o`combineReducers`
+-[] exportar`rootReducer`
 
 Exemplo:
 
@@ -69,9 +69,9 @@ const rootReducer = combineReducers({ exampleReducer })
 export default rootReducer;
 ```
 
-  * No arquivo `App.js`:*
-    -[] importar a`store`
-      - [] importar o`Provider`, para fornecer os estados a todos os componentes encapsulados pelo`<App />`
+* No arquivo `App.js`:*
+-[] importar a`store`
+-[] importar o`Provider`, para fornecer os estados a todos os componentes encapsulados pelo`<App />`
 
 Exemplo:
 
@@ -88,8 +88,8 @@ import store from './redux/store'
  </Provider>
 ```
 
-  * Na pasta `actions/index.js`:*
-    -[] criar e exportar os actionTypes
+* Na pasta `actions/index.js`:*
+-[] criar e exportar os actionTypes
 
 Exemplo:
 
@@ -98,7 +98,7 @@ Exemplo:
 export const ADD_EMAIL = 'ADD_EMAIL';
 ```
 
-  - [] criar e export os actions creators necessários
+-[] criar e export os actions creators necessários
 
 Exemplo:
 
@@ -110,16 +110,16 @@ export const addEmail = (email) => ({
 })
 ```
 
-  * Nos reducers:*
-    -[] criar os casos para cada action criada, retornando o devido estado atualizado
+* Nos reducers:*
+-[] criar os casos para cada action criada, retornando o devido estado atualizado
 
-      * Nos componentes que irão ler o estado:*
-        -[] criar a função`mapStateToProps`
-          - [] exportar usando o`connect`
+* Nos componentes que irão ler o estado:*
+-[] criar a função`mapStateToProps`
+-[] exportar usando o`connect`
 
-            * Nos componentes que irão modificar o estado:*
-              -[] criar a função`mapDispatchToProps`
-                - [] exportar usando o`connect`
+* Nos componentes que irão modificar o estado:*
+-[] criar a função`mapDispatchToProps`
+-[] exportar usando o`connect`
 
 Exemplo:
 
