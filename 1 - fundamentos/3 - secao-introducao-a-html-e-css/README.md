@@ -16,6 +16,6 @@ Nessa seção aprendi sobre: :arrow_down:
 
 Tendo isso em mente aqui vocês encontrarão exercícios que desenvolvi para fixar os conhecimentos que adquiri ao longo dessa seção. Além disso também desenvolvi o projeto ao final da seção para avaliar tudo o que havia aprendido.
 
-- Você pode acessa-lo diretamente em minha página [aqui](https://jonnoliveira.github.io/lessons-learned/); :fire:
-- Ou no meu portfólio por [aqui](https://github.com/jonnoliveira/Trybe-project-lessons-learned); :memo:
+- Você pode acessa-lo diretamente em meu portfólio [aqui](https://jonnoliveira.github.io/lessons-learned/); :fire:
+- Ou no meu repositório por [aqui](https://github.com/jonnoliveira/Trybe-project-lessons-learned); :memo:
 #
