@@ -12,7 +12,7 @@ Nessa seção aprendi sobre: :arrow_down:
 - [x] Testar o React-Redux; :rocket:
 #
 
-- [x] Além disso também desenvolvi o projetoTrybe Wallet para avaliar tudo o que havia aprendido.
+- [x] Além disso também desenvolvi o projeto Trybe Wallet para avaliar tudo o que havia aprendido.
 
 - Você pode acessa-lo diretamente em meu portfólio [aqui](); :fire:
 - Ou no meu repositório por [aqui](); :memo:
