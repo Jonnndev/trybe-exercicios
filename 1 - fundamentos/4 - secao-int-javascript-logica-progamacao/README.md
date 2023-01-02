@@ -12,11 +12,9 @@ Nessa seção aprendi sobre: :arrow_down:
 - [x] Lógica de programação e algoritmos :rocket:
 
 - [x] Objetos, for/in e funções :rocket:
-
-- [x] Por fim, realizei o projeto Playground Functions para avaliar tudo o que havia aprendido.
 #
 
-Além disso também desenvolvi o projeto ao final da seção para avaliar tudo o que havia aprendido.
+- [x] Além disso também desenvolvi o projeto ao final da seção para avaliar tudo o que havia aprendido.
 
 - Você pode acessa-lo diretamente em meu portfólio [aqui](); :fire:
 - Ou no meu repositório por [aqui](); :memo:
