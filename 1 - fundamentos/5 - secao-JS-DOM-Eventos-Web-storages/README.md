@@ -12,8 +12,11 @@ Nessa seção aprendi sobre: :arrow_down:
 - [x] Eventos :rocket:
 
 - [x] Web Storage :rocket:
+#
 
-- [x] Por fim, realizei o projeto Arte com Pixels para empregar e avaliar tudo o que havia aprendido.
+- [x] Além disso também desenvolvi o projeto Arte com Pixels para avaliar tudo o que havia aprendido.
 
+- Você pode acessa-lo diretamente em meu portfólio [aqui](); :fire:
+- Ou no meu repositório por [aqui](); :memo:
 #
 
