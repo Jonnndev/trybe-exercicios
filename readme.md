@@ -17,7 +17,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Entendendo os comandos_
-- [x] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Seção 3: Introdução - HTML & CSS
 
@@ -25,7 +24,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto - HTML & CSS]()_
+- [x] 3-5: _[Projeto -Lessons Learned]()_
 
 ##### Seção 4: Introdução - JavaScript
 
@@ -33,21 +32,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _JavaScript - let, const, arrow functions e template literals_
+- [x] 4-6: _[Projeto - Playground Functions]()_
 
-##### Seção 5: Introdução - JavaScript - Projetos
+##### Seção 5: JavaScript - DOM, Eventos e Web Storage
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Meme Generator]()_
-- [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
-- [x] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [x] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-5: _[Projeto - Arte com Pixels]()_
 
-##### Seção 6: HTML & CSS avançado
+##### Seção 6: HTML & CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -56,201 +52,214 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Trybewarts]()_
 
-##### Seção 7: JavaScript ES6 & Testes Unitários
+##### Seção 7: Introdução à JavaScript ES6 & Testes Unitários
 
-- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [x] 7-2: _JavaScript ES6 - Objects_
-- [x] 7-3: _Testes unitários em JavaScript_
+- [x] 7-1: _Fluxo de exceções e manipulação de objetos_
+- [x] 7-2: _Primeiros passos em Jest_
+- [x] 7-3: _Matchers e coberturas de código_
 - [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
-##### Seção 8: JavaScript ES6
+##### Seção 8: Higher Order Functions do JavaScript ES6
 
-- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 8-5: _[Projeto - Zoo functions]()_
+- [x] 8-1: _Introdução a Higher Order Functions_
+- [x] 8-2: _Higher Order Functions - sort e map_
+- [x] 8-3: _Higher Order Functions - filter e reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter e object destructuring_
+- [x] 8-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [x] 8-6: _[Projeto - Zoo functions]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Seção 1: Assincronicidade & Callbacks
+##### Seção 1: Introdução ao Frontend e JavaScript assíncrono 
 
-- [ ] 1-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 1-2: _JavaScript Promises_
-- [ ] 1-3: _[Projeto - Carrinho de Compras]()_
+- [ ] 1-1: _Ambiente de desenvolvimento
+- [ ] 1-2: _JavaScript Assíncrono: Promises e fetch_
+- [ ] 1-3: _Prática: Casa de câmbio_
+- [ ] 1-4: _Async, await e testes assíncronos_
+- [ ] 1-5: _[Projeto - Carrinho de Compras]()_
 
-##### Seção 2: Jest
-
-- [ ] 2-1: _Primeiros passos no Jest_
-- [ ] 2-2: _Jest - Testes Assíncronos_
-- [ ] 2-3: _Jest - Simulando comportamentos_
-- [ ] 2-4: _[Projeto - Jest Assíncrono e Mocking]()_
-
-##### Seção 3: Introdução - React
+##### Seção 2: Introdução ao React
 
 - [ ] 3-1: _'Hello, world!' no React!_
 - [ ] 3-2: _Componentes React_
-- [ ] 3-3: _[Projeto - Movie Cards Library]()_
+- [ ] 3-3: _[Projeto - Solar System]()_
 
-##### Seção 4: React
+##### Seção 3: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 4-1: _Components com estado_
-- [ ] 4-2: _Eventos e formulários no React_
-- [ ] 4-3: _[Projeto - Movie Cards Library Stateful]()_
+- [ ] 3-1: _Components com estado e eventos_
+- [ ] 3-2: _Formulários no React_
+- [ ] 3-3: _[Projeto - Tryunfo]()_
 
-##### Seção 5: React
+##### Seção 4: Ciclo de vida de Compoenentes e React Router
 
-- [ ] 5-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 5-2: _Ciclo de vida de componentes em React_
-- [ ] 5-3: _React Router_
-- [ ] 5-4: _[Projeto - Movie Cards Library CRUD]()_
+- [ ] 4-1: _Ciclo de vida de componentes_
+- [ ] 4-2: _React Router_
+- [ ] 4-3: _[Projeto - TrybeTunes]()_
 
-##### Seção 6: Metodologias Ágeis
+##### Seção 5: Metodologias Ágeis
 
-- [ ] 6-1: _Metodologias Ágeis_
-- [ ] 6-2: _[Projeto - Frontend Online Store]()_
+- [ ] 5-1: _Metodologias Ágeis_
+- [ ] 5-2: _[Projeto - Frontend Online Store]()_
 
-##### Seção 7: Testes em React
+##### Seção 6: Testes automatizados com React Testing Library
 
-- [ ] 7-1: _Testando React com a React Testing Library_
-- [ ] 7-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 7-3: _[Projeto - Testes em React]()_
+- [ ] 6-1: _RTL - Primeiros passos_
+- [ ] 6-2: _RTL - Mocks e Inputs_
+- [ ] 6-3: _RTL - Testando React Router_
+- [ ] 6-3: _[Projeto - Testes em React]()_
 
-##### Seção 8: Introdução ao Redux
+##### Seção 7: Gerenciamento de estado com Redux
 
-- [ ] 8-1: _Introdução ao Redux_
-- [ ] 8-2: _React com Redux - Parte 1_
-- [ ] 8-3: _React com Redux - Prática_
-- [ ] 8-4: _React com Redux - Parte 2_
-- [ ] 8-5: _Testes síncronos com React-Redux_
-- [ ] 8-6: _[Projeto - Tabela com filtros de dados]()_
+- [ ] 7-1: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 7-2: _Usando o React no Redux_
+- [ ] 7-3: _Usando o React no Redux - Prática_
+- [ ] 7-4: _Usando o React no Redux - Actions Assíncronas_
+- [ ] 7-5: _Testes em React-Redux_
+- [ ] 7-6: _[Projeto - Trybe Wallet]()_
 
-##### Seção 9: Projeto React
+##### Seção 8: Projeto Jogo de Trívia
 
-- [ ] 9-1: _[Projeto - Jogo de Trivia]()_
+- [ ] 8-1: _[Projeto - Jogo de Trivia]()_
 
-##### Seção 10: React & Context API
+##### Seção 9: Context API e React Hooks
 
-- [ ] 10-1: _Context API do React_
-- [ ] 10-2: _React Hooks - useState e useContext_
-- [ ] 10-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 10-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ ] 9-1: _React Hooks - useState e useEffect_
+- [ ] 9-2: _Context API_
+- [ ] 9-3: _Custom Hooks_
+- [ ] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Seção 11: Projeto Final de Front-end
+##### Seção 10: Projeto Final de Front-end
 
-- [ ] 11-1: _[Projeto - App de Receitas]()_
+- [ ] 10-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Seção 1: Introdução - Bancos de dados relacionais
+##### Seção 1: Docker: Utilizando Containers
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [ ] 1-1: _Utilizando Containers - Docker_
+- [ ] 1-2: _Manipulando imagens no Docker_
+- [ ] 1-3: _Orquestrando Containers com Docker Compose_
+- [ ] 1-4: _[Projeto - Docker Todo-List]()_
 
-##### Seção 2: Bancos de dados relacionais
+##### Seção 2: Introdução à SQL
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [ ] 2-1: _Banco de dados SQL_
+- [ ] 2-2: _Encontrando dados em um banco de dados_
+- [ ] 2-3: _Filtrando dados de forma específica_
+- [ ] 2-4: _Manipulando tabelas_
+- [ ] 2-5: _[Projeto - All For One]()_
 
-##### Seção 3: Bancos de dados relacionais
+##### Seção 3: Funções SQL, JOINs e Normalização
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [ ] 3-1: _Funções mais usadas no SQL_
+- [ ] 3-2: _Descomplicando JOINs_
+- [ ] 3-3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 3-4: _Aula ao vivo + [Projeto - One For All]()_
 
-##### Seção 4: Introdução - NoSQL
+##### Seção 4: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [ ] 4-1: _Node.js - Runtime Assíncrono_
+- [ ] 4-2: _Node.js - API REST com Express_
+- [ ] 4-3: _Node.js - Testes de Integração_
+- [ ] 4-4: _Node.js - Express e Middlewares_
+- [ ] 4-5: _Node.js - Express e MySQL_
+- [ ] 4-6: _[Projeto - Talker Manager]()_
 
-##### Seção 5: Updates
+##### Seção 5: Arquitetura de Software: Model, Service e Controller
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [ ] 5-1: _Arquitetura de Software - Camada Model_
+- [ ] 5-2: _Arquitetura de Software - Camada Service_
+- [ ] 5-3: _Arquitetura de Software - Camada Controller_
+- [ ] 5-4: _[Projeto - Store Manager]()_
 
-##### Seção 6: Aggregation Framework
+##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+- [ ] 6-1: _ORM - Interface de aplicação com o banco de dados_
+- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 6-3: _ORM - Associations N:N e Transactions_
+- [ ] 6-4: _JWT - JSON Web Token_
+- [ ] 6-5: _[Projeto - API de Blogs]()_
 
-##### Seção 7: Intro - NodeJS
+##### Seção 7: Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [ ] 7-1: _Infraestrutura: Deploy com Railway_
 
-##### Seção 8: NodeJS
+##### Seção 8: Introdução a TypeScript
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 8-1: _Introdução ao TypeScript_
+- [ ] 8-2: _Tipagem Estática e Generics_
+- [ ] 8-3: _Express com TypeScript_
+- [ ] 8-3: _[Projeto - Trybesmith]()_
 
-##### Seção 9: NodeJS
+##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 9-1: _Introdução à Orientação a Objetos_
+- [ ] 9-2: _Herança e Composição_
+- [ ] 9-3: _Polimorfismo_
+- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 9-5: _SOLID - Princípios L e I_
+- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
 
-##### Seção 10: NodeJS
+##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [ ] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Seção 11: Introdução - Deploy
+##### Seção 11: Introdução ao MongoDB
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 11-1: _MongoDB - Introdução_
+- [ ] 11-2: _Filters Operators_
+- [ ] 11-3: _Operadores de consulta_
+- [ ] 11-4: _Updates simples_
+- [ ] 11-5: _Updates complexos - Arrays_
+- [ ] 11-6: _[Projeto - Commerce]()_
 
-##### Seção 12: Projeto
+##### Seção 12: APIs OO e NoSQL
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
+- [ ] 12-3: _[Projeto - Car Shop]()_
 
-##### Seção 13: Arquitetura de Software
+##### Seção 13: Projeto App de Delivery
 
-- [ ] 32-1: _Arquitetura - Princípios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [ ] 13-1: _[Projeto - App de Delivery]()_
 
-##### Seção 14: Sockets
-
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
-
-##### Seção 15: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Seção 1: Introdução - Ciência da Computação
+##### Seção 1: Introdução a Python
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
+- [ ] 1-1: _Aprendendo Python_
+- [ ] 1-2: _Entrada e Saída de Dados_
+- [ ] 1-3: _Testes_
+- [ ] 1-4: _[Projeto - Job Insights]()_
 
-##### Seção 2 Python
+##### Seção 2: Padrões de Projeto
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saída de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 2-1: _POO em Python_
+- [ ] 2-2: _Padrões - Iterator, Adapter, Strategy_
+- [ ] 2-3: _Padrões - Decorator, Observer, Factory_
+- [ ] 2-4: _[Projeto - Relatório de Estoque]()_
+
+##### Seção 3: Redes e Raspagem de Dados
+
+- [ ] 3-1: _Arquitetura de redes_
+- [ ] 3-2: _Raspagem de Dados_
+- [ ] 3-3: _Outras Ferramentas de Raspagem de Dados_
+- [ ] 3-4: _[Projeto - Tech News]()_
+
+##### Seção 4: Algoritmos
+
+- [ ] 4-1: _Complexidade de Algoritmos_
+- [ ] 4-2: _Recursividade e Estratégias para solução de problemas_
+- [ ] 4-3: _Algoritmos de ordenação e busca_
+- [ ] 4-4: _[Projeto - Algoritmos]()_
+
+##### Seção 5: Estrutua de Dados I: Arrays, Filas e Pilhas
+
+- [ ] 5-1: _Arquitetura de Computadores_
+- [ ] 5-2: _Arrays_
+- [ ] 5-3: _Nó e Listas Encadeadas_
+- [ ] 5-4: _Pilhas e Filas_
+- [ ] 5-4: _[Projeto - TING - Trybe Is Not Google]()_
 
 ##
