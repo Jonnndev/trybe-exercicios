@@ -1,4 +1,4 @@
-# SEÇÃO 4 - CCICLO DE VIDA DE COMPONENTES E REACT ROUTER :computer:
+# SEÇÃO 4 - CICLO DE VIDA DE COMPONENTES E REACT ROUTER :computer:
 
 ## Essa seção pertence ao módulo de `front-end` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
 #
