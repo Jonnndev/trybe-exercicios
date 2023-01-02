@@ -1,4 +1,4 @@
-# SEÇÃO 6 - HTML e CSS: Forms. Flexbox e Responsivo :computer:
+# SEÇÃO 6 - HTML e CSS: Forms, Flexbox e Responsivo :computer:
 
 ## Essa seção pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/) :green_heart:
 #
