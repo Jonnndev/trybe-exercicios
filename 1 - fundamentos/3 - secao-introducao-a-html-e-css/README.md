@@ -14,7 +14,7 @@ Nessa seção aprendi sobre: :arrow_down:
 - [x] O significado que cada elemento HTML carrega e sobre como isso impacta na interpretação do conteúdo da página por robôs e outros elementos da Internet. :rocket:
 #
 
-- [x] Além disso também desenvolvi o projeto ao final da seção para avaliar tudo o que havia aprendido.
+- [x] Além disso também desenvolvi o projeto Lessons Learned para avaliar tudo o que havia aprendido.
 
 - Você pode acessa-lo diretamente em meu portfólio [aqui](); :fire:
 - Ou no meu repositório por [aqui](); :memo:
