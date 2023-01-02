@@ -72,50 +72,50 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1: Introdução ao Frontend e JavaScript assíncrono 
 
-- [ ] 1-1: _Ambiente de desenvolvimento
-- [ ] 1-2: _JavaScript Assíncrono: Promises e fetch_
-- [ ] 1-3: _Prática: Casa de câmbio_
-- [ ] 1-4: _Async, await e testes assíncronos_
-- [ ] 1-5: _[Projeto - Carrinho de Compras]()_
+- [x] 1-1: _Ambiente de desenvolvimento
+- [x] 1-2: _JavaScript Assíncrono: Promises e fetch_
+- [x] 1-3: _Prática: Casa de câmbio_
+- [x] 1-4: _Async, await e testes assíncronos_
+- [x] 1-5: _[Projeto - Carrinho de Compras]()_
 
 ##### Seção 2: Introdução ao React
 
-- [ ] 3-1: _'Hello, world!' no React!_
-- [ ] 3-2: _Componentes React_
-- [ ] 3-3: _[Projeto - Solar System]()_
+- [x] 3-1: _'Hello, world!' no React!_
+- [x] 3-2: _Componentes React_
+- [x] 3-3: _[Projeto - Solar System]()_
 
 ##### Seção 3: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 3-1: _Components com estado e eventos_
-- [ ] 3-2: _Formulários no React_
-- [ ] 3-3: _[Projeto - Tryunfo]()_
+- [x] 3-1: _Components com estado e eventos_
+- [x] 3-2: _Formulários no React_
+- [x] 3-3: _[Projeto - Tryunfo]()_
 
 ##### Seção 4: Ciclo de vida de Compoenentes e React Router
 
-- [ ] 4-1: _Ciclo de vida de componentes_
-- [ ] 4-2: _React Router_
-- [ ] 4-3: _[Projeto - TrybeTunes]()_
+- [x] 4-1: _Ciclo de vida de componentes_
+- [x] 4-2: _React Router_
+- [x] 4-3: _[Projeto - TrybeTunes]()_
 
 ##### Seção 5: Metodologias Ágeis
 
-- [ ] 5-1: _Metodologias Ágeis_
-- [ ] 5-2: _[Projeto - Frontend Online Store]()_
+- [x] 5-1: _Metodologias Ágeis_
+- [x] 5-2: _[Projeto - Frontend Online Store]()_
 
 ##### Seção 6: Testes automatizados com React Testing Library
 
-- [ ] 6-1: _RTL - Primeiros passos_
-- [ ] 6-2: _RTL - Mocks e Inputs_
-- [ ] 6-3: _RTL - Testando React Router_
-- [ ] 6-3: _[Projeto - Testes em React]()_
+- [x] 6-1: _RTL - Primeiros passos_
+- [x] 6-2: _RTL - Mocks e Inputs_
+- [x] 6-3: _RTL - Testando React Router_
+- [x] 6-3: _[Projeto - Testes em React]()_
 
 ##### Seção 7: Gerenciamento de estado com Redux
 
-- [ ] 7-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 7-2: _Usando o React no Redux_
-- [ ] 7-3: _Usando o React no Redux - Prática_
-- [ ] 7-4: _Usando o React no Redux - Actions Assíncronas_
-- [ ] 7-5: _Testes em React-Redux_
-- [ ] 7-6: _[Projeto - Trybe Wallet]()_
+- [x] 7-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 7-2: _Usando o React no Redux_
+- [x] 7-3: _Usando o React no Redux - Prática_
+- [x] 7-4: _Usando o React no Redux - Actions Assíncronas_
+- [x] 7-5: _Testes em React-Redux_
+- [x] 7-6: _[Projeto - Trybe Wallet]()_
 
 ##### Seção 8: Projeto Jogo de Trívia
 
