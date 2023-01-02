@@ -262,4 +262,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5-4: _Pilhas e Filas_
 - [ ] 5-4: _[Projeto - TING - Trybe Is Not Google]()_
 
+##### Seção 6: Estrutua de Dados II: Hashmaps e Sets
+
+- [ ] 5-1: _Hashmap e Dict_
+- [ ] 5-2: _Set_
+- [ ] 5-3: _[Projeto - Restaurant Orders]()_
+
 ##
