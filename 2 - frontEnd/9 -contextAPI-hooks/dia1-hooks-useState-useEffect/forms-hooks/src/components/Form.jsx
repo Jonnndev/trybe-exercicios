@@ -87,8 +87,8 @@ function Form() {
           onChange={ ({ target }) => setModule( target.value ) }
           /> Ciência da Computação
         </label>
-
       </fieldset>
+      <button type="submit">Enviar</button>
     </form>
   )
 }
