@@ -12,6 +12,15 @@
 
 // É um local remoto onde podemos encontrar diversas imagens, públicas e privadas, ja feitas por outras pessoas
 
+// ========== Inicialização ==========
+
+// sudo groupadd docker
+// sudo usermod -aG docker $USER
+// newgrp docker
+// sudo systemctl status docker
+// sudo systemctl enable docker
+// docker run hello-world -> VALIDAÇÃO
+
 // ========== Comandos básicos ==========
 
 //  docker images -> para listar as imagens presentes na máquina
