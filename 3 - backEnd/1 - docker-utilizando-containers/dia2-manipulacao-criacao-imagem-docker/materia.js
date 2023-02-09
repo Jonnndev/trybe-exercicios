@@ -2,7 +2,8 @@
 
 -> Uma imagem Docker é um arquivo imutável e a partir dele um ou mais containers podem ser gerados. 
 
--> O Dockerfile é um arquivo que contém as instruções necessárias (como uma receita) para construirmos a imagem Docker exatamente como desejamos.
+-> O Dockerfile é um arquivo que contém as instruções necessárias (como uma receita) para construirmos a 
+imagem Docker exatamente como desejamos.
 
 ========== Obtendo e Removendo imagem ==========
 
@@ -20,23 +21,31 @@ FROM -> significa a partir de onde iremos começar a construção da imagem.
 
 CMD -> mostra o comando que deve ser utilizado ao iniciar a imagem como um container. (!) Aceita uma lista de parâmetros [].
 
-docker build <flags> -t <nome-da-imagem> <contexto> -> [ *Uma flag -t, que indicará qual será o nome da imagem, e também a tag, se utilizar o formato <nome>:<tag>; **Um contexto, ou seja, em qual caminho de pasta o Docker deve se basear para processar o arquivo Dockerfile. ***Normalmente utilizamos apenas . (ponto final), que indica a pasta atual. ] EX: docker build -t primeira-imagem (nome dado a imagem).
+docker build <flags> -t <nome-da-imagem> <contexto> -> [ *Uma flag -t, que indicará qual será o nome da imagem, 
+  e também a tag, se utilizar o formato <nome>:<tag>; **Um contexto, ou seja, em qual caminho de pasta o Docker deve se 
+    basear para processar o arquivo Dockerfile. ***Normalmente utilizamos apenas . (ponto final), que indica a pasta atual. ] 
+    EX: docker build -t primeira-imagem (nome dado a imagem).
 
 ========== Criando servidor Web ==========
 
-COPY -> copia um arquivo no computador local e o coloca dentro da imagem, no caminho especificado à frente. Possui a capacidade de copiar arquivos entre os estágios;
+COPY -> copia um arquivo no computador local e o coloca dentro da imagem, no caminho especificado à frente. Possui a 
+capacidade de copiar arquivos entre os estágios;
 
-ADD -> o comando ADD poderia fazer o mesmo que o copy e ainda possui mais funcionalidades, como: 1 - Fazer o download do conteúdo de uma URL <src> na pasta de destino <dest> | 2 - Descompactar automaticamente arquivos compactados de formatos reconhecidos (.tar, .gzip, .bzip2, etc)
+ADD -> o comando ADD poderia fazer o mesmo que o copy e ainda possui mais funcionalidades, como: 1 - Fazer o download 
+do conteúdo de uma URL <src> na pasta de destino <dest> | 2 - Descompactar automaticamente arquivos compactados de formatos 
+  reconhecidos (.tar, .gzip, .bzip2, etc)
 
 EXPOSE -> indica que a imagem poderá receber conexões pelo número da porta que for informado.
 
 -P -> a flag -P atribui automaticamente uma porta local conectada à porta do container executado, realizando o bind de portas.
 
--p -> já essa flag necessita de complemento indicando em qual porta será feito o bind. EX: docker container run -d -p 80:80 [...]. Nesse caso estamos ligando a porta 80 local com a porta 80 do container.
+-p -> já essa flag necessita de complemento indicando em qual porta será feito o bind. EX: docker container run -d -p 80:80 [...].
+ Nesse caso estamos ligando a porta 80 local com a porta 80 do container.
 
 ========== Criando imagens robustas ==========
 
-Hugo -> ferramenta que facilita a criação de páginas,  de modo que as pessoas possam focar mais em escrever o conteúdo do que se preocupar com tags HTML das páginas.
+Hugo -> ferramenta que facilita a criação de páginas,  de modo que as pessoas possam focar mais em escrever o conteúdo 
+do que se preocupar com tags HTML das páginas.
 
 AS -> prefixo que nomeia o estágio atual (AS) do processamento.
 
