@@ -25,14 +25,15 @@ Boa prática em relação ao nome do arquivo:
 Todo container é criado a partir de uma imagem. Sendo assim, precisamos especificá-las aos nossos serviços.
 Temos duas opções para isso:
 
-1️⃣ image: especifica uma imagem Docker pronta, seja local ou a ser baixada no Docker Hub;
+image: especifica uma imagem Docker pronta, seja local ou a ser baixada no Docker Hub;
 
-2️⃣ build: especifica a pasta contendo um arquivo Dockerfile a partir do qual o Compose vai executar o
+build: especifica a pasta contendo um arquivo Dockerfile a partir do qual o Compose vai executar o
 comando docker build automaticamente.
 
 ========== MAPEANDO PORTAS ==========
 
--> Dentro de cada serviço, podemos especificar o ports, que é uma lista de mapeamentos de portas entre o computador local e as portas do container.
+-> Dentro de cada serviço, podemos especificar o ports, que é uma lista de mapeamentos de portas entre o computador
+local e as portas do container.
 
 ========== CONTAINER COM PROBLEMAS ==========
 
@@ -44,13 +45,16 @@ O Compose possui quatro políticas de reinicialização, sendo elas:
 
 - on-failure: define que o container será reiniciado caso ocorra alguma falha apontada pelo exit code, diferente de zero;
 
-- always: especifica que sempre que o serviço parar, seja por um falha ou porque ele simplesmente finalizou sua execução, ele deverá ser reiniciado;
+- always: especifica que sempre que o serviço parar, seja por um falha ou porque ele simplesmente finalizou sua execução,
+ele deverá ser reiniciado;
 
-- unless-stopped: define que o container sempre será reiniciado, a menos que utilizemos o comando docker stop <container> manualmente.
+- unless-stopped: define que o container sempre será reiniciado, a menos que utilizemos o comando docker stop <container>
+manualmente.
 
 ========== VARIÁVEIS DE AMBIENTE ==========
 
--> Toda vez que solicitarmos ao sistema operacional o valor de uma variável de ambiente, fornecemos a ele uma NOME_DA_VARIÁVEL e ele retorna o VALOR associado a esta chave, se ela estiver definida.
+-> Toda vez que solicitarmos ao sistema operacional o valor de uma variável de ambiente, fornecemos a ele uma NOME_DA_VARIÁVEL
+e ele retorna o VALOR associado a esta chave, se ela estiver definida.
 
 -> É possível criar e usar variáveis de ambiente dentro dos containers. O nome da chave que utilizamos é environment. 
 
@@ -73,9 +77,11 @@ O Compose possui quatro políticas de reinicialização, sendo elas:
 
 -> docker-compose logs <nome-do-serviço> : Para ler os logs dos serviços.
 
--> O Compose vai executar todos os containers especificados, baixando as imagens do Registry (Docker Hub), de acordo com o que foi especificado no arquivo. 
+-> O Compose vai executar todos os containers especificados, baixando as imagens do Registry (Docker Hub), de acordo com o
+que foi especificado no arquivo. 
 
--> Outro detalhe importante é que, nesse momento, além de executar os containers, o Compose vai criar uma rede virtual padrão entre esses containers, permitindo a comunicação entre eles.
+-> Outro detalhe importante é que, nesse momento, além de executar os containers, o Compose vai criar uma rede virtual padrão
+entre esses containers, permitindo a comunicação entre eles.
 
 ========== VERIFICANDO STATUS DOS SERVIÇOS ==========
 
@@ -83,7 +89,8 @@ O Compose possui quatro políticas de reinicialização, sendo elas:
 
 ========== RECONSTRUINDO IMAGEM DOCKER ==========
 
--> Depois de efetuar as alterações, precisamos deixar nítido que as imagens precisam ser construídas novamente usando o Compose. Para isso, utilizamos a flag --build, junto com o comando docker-compose up. 
+-> Depois de efetuar as alterações, precisamos deixar nítido que as imagens precisam ser construídas novamente usando o Compose.
+Para isso, utilizamos a flag --build, junto com o comando docker-compose up. 
 
 ========== DESCENDO SERVIÇOS ==========
 
@@ -92,20 +99,22 @@ O Compose possui quatro políticas de reinicialização, sendo elas:
 ========== SUBINDO SERVIÇOS ESPECÍFICOS ==========
 
 -> docker-compose up <serviço>
-  EX: docker-compose up backend
+EX: docker-compose up backend
 
-  ========== LOGS DOS SERVIÇOS ==========
+========== LOGS DOS SERVIÇOS ==========
 
-  -> docker-compose logs <serviço>
+-> docker-compose logs <serviço>
 
-  -> docker-compose logs --tail 5 <serviço>: para especificar a quantidade de linhas do log.
+-> docker-compose logs --tail 5 <serviço>: para especificar a quantidade de linhas do log.
 
 
-  ========== >>>> ARQUIVOS COMPOSE ROBUSTOS <<<< ==========
+========== >>>> ARQUIVOS COMPOSE ROBUSTOS <<<< ==========
 
-  -> volumes: são pastas dentro de um serviço que é persistente, ou seja, mesmo após descer o serviço, esta pasta ainda mantém seus arquivos na próxima vez que os serviços subirem.
+-> volumes: são pastas dentro de um serviço que é persistente, ou seja, mesmo após descer o serviço, esta pasta ainda mantém
+seus arquivos na próxima vez que os serviços subirem.
 
--> redes virtuais: onde alguns serviços podem se comunicar apenas em uma rede virtual #1, enquanto outros serviços podem se comunicar apenas em uma rede virtual #2.
+-> redes virtuais: onde alguns serviços podem se comunicar apenas em uma rede virtual #1, enquanto outros serviços podem se
+comunicar apenas em uma rede virtual #2.
 
 ========== VOLUMES ==========
 
@@ -117,7 +126,8 @@ O Compose possui quatro políticas de reinicialização, sendo elas:
 -> O serviço back-end precisa se comunicar tanto com o front-end quanto com o database;
 -> O serviço database só precisa se comunicar diretamente com o back-end.
 
-Ao limitar as comunicações entre os serviços que não necessitam se comunicar de fato, acabamos criando uma arquitetura segura e robusta para os nossos serviços.
+Ao limitar as comunicações entre os serviços que não necessitam se comunicar de fato, acabamos criando uma arquitetura segura e
+robusta para os nossos serviços.
 
 Entendendo as alterações em nosso arquivo docker-compose.yaml:
 
@@ -134,8 +144,10 @@ Entendendo as alterações em nosso arquivo docker-compose.yaml:
 
 ========== SERVIÇOS VS CONTAINER ==========
 
--> Em ambientes de produção, temos que garantir que nossas aplicações tenham alta escalabilidade, ou seja, a aplicação deve ser capaz de receber uma alta carga de requisições sem maiores problemas durante horários de pico.
+-> Em ambientes de produção, temos que garantir que nossas aplicações tenham alta escalabilidade, ou seja, a aplicação deve ser
+capaz de receber uma alta carga de requisições sem maiores problemas durante horários de pico.
 
--> E é por este motivo que normalmente temos múltiplas cópias dos nossos containers atendendo o mesmo serviço! Chamamos a quantidade de cópias de um container como o número de réplicas atuais do serviço.
+-> E é por este motivo que normalmente temos múltiplas cópias dos nossos containers atendendo o mesmo serviço! Chamamos a
+quantidade de cópias de um container como o número de réplicas atuais do serviço.
 
 -> docker-compose up --scale service=<número-de-replicas>
