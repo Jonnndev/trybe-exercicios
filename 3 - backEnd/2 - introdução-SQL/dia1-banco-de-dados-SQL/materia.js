@@ -136,3 +136,17 @@ Refere-se a uma  tabela que representa algum conceito do mundo real que você qu
 (!) A entidade é nossa tabela dentro de um banco de dados e as propriedades fazem parte dessa tabela.
 
 ========================================== COMO OS DADOS SÃO LIGADOS? ==========================================
+
+Para não precisarmos duplicar dados em tabelas diferentes, podemos estabelecer relacionamentos entre as
+tabelas. Em um banco de dados existem quatro tipos de relacionamento
+
+-> UM PARA UM: Uma linha da Tabela A só deve possuir uma linha correspondente na tabela B ou vice-versa.
+
+-> UM PARA MUITOS OU MUITOS PARA UM: Esse é um dos tipos mais comuns de relacionamento. Em cenários assim, uma linha na tabela A
+pode ter várias linhas correspondentes na tabela B, mas uma linha da tabela B só pode possuir uma linha correspondente na tabela A.
+
+-> MUITOS PARA MUITOS: O tipo de relacionamento muitos para muitos acontece quando uma linha na tabela A pode possuir muitas linhas
+correspondentes na tabela B e vice-versa.
+
+
+
