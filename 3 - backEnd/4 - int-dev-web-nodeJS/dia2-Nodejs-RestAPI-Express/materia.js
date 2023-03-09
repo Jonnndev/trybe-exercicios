@@ -4,6 +4,12 @@ APIs Web são ferramentas definitivas para conectar o front-end de uma aplicaç�
 precisa salvar e receber. O padrão REST, rotas e aplicações C.R.U.D são partes do conhecimento de
 como se fazer uma boa API.
 
+
+--> Padrão CRUD: Create: Criar;
+                 Read: Ler;
+                 Update: Alterar;
+                 Delete: Deletar;
+                 
 ==================================== SERVIDOR NODE.JS ====================================
 
 --> SERIDORES:  é quem ou aquele que serve! são programas de computador que entregam algum tipo
@@ -188,7 +194,7 @@ Content-Type: text/html
 
 ==================================== ENVIANDO DADOS PARA O SERVIDOR ====================================
 
---> Envio por consulta, ou req.query:
+--> Envio por CONSULTA, ou req.query:
 
 Construção: /rota?variavel1=valor&variavel1=valor&variavelN=valor
 Explicação:
@@ -200,7 +206,7 @@ Explicação:
 
   - TIPO DE ENVIO: GET
 
---> Envio por parâmetro ou req.params:
+--> Envio por PARÂMETRO DE ROTA ou req.params:
 
 Construção: /rota/:variavelN
 Explicação:
@@ -210,7 +216,7 @@ Explicação:
 
    - TIPO DE ENVIO: GET
 
---> Envio por corpo ou req.body:
+--> Envio por CORPO ou req.body:
 
  (!) O envio de informações vai pelo corpo e não mais pela URL, onde podemos ver explicitamente.
      Isso se dá por duas questões:
@@ -221,6 +227,124 @@ Explicação:
      # O segundo motivo é pelo tamanho do que enviamos. Imagina que inviável enviar todo um cadastro
        de um formulário gigante pela URL.
     
-  - TIPO DE ENVIO: POST
+  - TIPO DE ENVIO: POST/PUT
+
+==================================== CRIANDO UMA API ====================================
+
+--> LISTANDO TIMES PELO MÉTODO GET:
+
+- Em nossa API, os dados serão armazenados em um array de objetos. 
+
+~~~~~~~~
+// src/app.js
+
+// const express = require('express');
+
+const teams = [
+  {
+    id: 1,
+    name: 'São Paulo Futebol Clube',
+    initials: 'SPF',
+  },
+  {
+    id: 2,
+    name: 'Clube Atlético Mineiro',
+    initials: 'CAM',
+  },
+];
+
+// ...
+~~~~~~~~
+
+- Criar um endpoint do tipo GET com a rota /teams
+
+~~~~~~~~
+// src/app.js
+
+// ...
+
+// app.get('/', (req, res) => res.status(200).json({ message: 'Olá Mundo!' }));
+
+app.get('/teams', (req, res) => res.status(200).json({ teams }));
+
+// module.exports = app;
+~~~~~~~~
+
+--> CADASTRANDO TIMES PELO MÉTODO POST:
+
+- Para cadastrar um novo time é muito simples, porém agora queremos receber os dados no corpo
+  da requisição.
+
+~~~~~~~~
+// src/app.js
+
+// ...
+
+// app.get('/teams', (req, res) => res.status(200).json({ teams }));
+
+app.post('/teams', (req, res) => {
+  const newTeam = { ...req.body };
+  teams.push(newTeam);
+
+  res.status(201).json({ team: newTeam });
+});
+
+// module.exports = app;
+~~~~~~~~
+
+(!) No caso acima os dados serão enviados pelo corpo da requisição e temos acesso a eles por meio
+    do req.body. Criamos uma nova constante chamada newTeam e aplicamos a desestruturação no req.body.
+    Após isso, armazenamos o dado em nosso array de times e respondemos a requisição, agora com o status
+    201.
 
 
+
+(!) app.use() --> serve para “instalar” algumas coisas que queremos em nossas APIs.]
+
+--> EDITANDO TIMES PELO MÉTODO PUT:
+
+- Para alterar algum time, você precisa do id deste time e dos novos dados, correto? Com o que
+aprendemos até agora, os novos dados vêm no corpo da requisição e o id vem por parâmetro. Após
+capturar tudo isso, você precisa procurar dentro do array teams o time correspondente com aquele
+id e alterar as informações dele. Como pode acontecer de não existir um time com aquele id buscado,
+precisamos também devolver uma resposta para esses casos.
+
+(!) O método PUT: é utilizado quando queremos alterar um recurso. Ele também recebe dados pelo corpo
+    da requisição.
+
+(!) Todo dado que vem por params ou por query (ou seja dados enviados pela URL do navegador) são
+    recebidos como string. <<<<<<
+
+--> DELETANDO TIMES PELO MÉTODO DELETE:
+
+==================================== ARQUITETURA REST ====================================
+
+--> REST: é um conjunto de boas práticas utilizadas durante a construção de uma API;
+
+--> RESTful: é um serviço web (desenvolvido por nós ou não) que segue as regras definidas pelo REST;
+
+(!) AS 5 RESTRIÇÕES PARA SER RESTFUL:
+
+    1 - Interface uniforme (Uniform Interface): respeitar um padrão para transferir informações;
+
+    2 - Arquitetura cliente-servidor: o REST quer nossa API organizada de forma que ela sirva a
+        clientes gerenciando suas solicitações HTTP;
+
+    3 - Sem estado (stateless): entre uma requisição e outra, a API não armazena informações do
+        cliente. Todas as requisições são independentes;
+
+    4 - Cacheable: requisições repetidas podem ser otimizadas, pois retornam os mesmos resultados;
+
+    5 - Sistema em camadas (Layered System): quem faz a requisição não vê as várias partes que fazem
+        uma API - só a sua camada que gerencia requisições.
+
+==================================== ERST NO EXPRESS ====================================
+
+(!) Uma das vantagens de se usar o Express para construção de APIs é a organização das rotas,
+podendo separar as rotas pelo método (ou verbo) HTTP da requisição. Além disso, torna-se mais
+simples retornar um formato específico solicitado pelo cliente e/ou retornar um status HTTP.
+
+app.get(...)
+app.post(...)
+app.put(...)
+app.delete(...)
