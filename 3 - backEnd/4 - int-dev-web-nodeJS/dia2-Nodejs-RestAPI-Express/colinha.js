@@ -1,3 +1,7 @@
+======================== FECHAR PORTA EM USO ========================
+
+sudo kill $(sudo lsof -t -i:3001)
+
 ======================== SERVER ========================
 
 const app = require('./app');
