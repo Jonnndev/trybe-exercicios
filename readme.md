@@ -1,4 +1,4 @@
-# Trybe
+# Trybe :green_heart:
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Jonathas Assis de Oliveira](https://www.linkedin.com/in/jonn-oliveira/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -24,7 +24,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto -Lessons Learned]()_
+- [x] 3-5: _[Projeto -Lessons Learned](https://github.com/jonnoliveira/trybe-project-01-lessons-learned)_
 
 ##### Seção 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _JavaScript - let, const, arrow functions e template literals_
-- [x] 4-6: _[Projeto - Playground Functions]()_
+- [x] 4-6: _[Projeto - Playground Functions](https://github.com/jonnoliveira/trybe-project-02-playground-functions)_
 
 ##### Seção 5: JavaScript - DOM, Eventos e Web Storage
 
@@ -41,7 +41,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto - Arte com Pixels]()_
+- [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/jonnoliveira/trybe-project-03-pixels-art)_
 
 ##### Seção 6: HTML & CSS: Forms, Flexbox e Responsivo
 
@@ -50,14 +50,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Trybewarts]()_
+- [x] 6-6: _[Projeto - Trybewarts](https://github.com/jonnoliveira/trybe-project-04-trybewarts)_
 
 ##### Seção 7: Introdução à JavaScript ES6 & Testes Unitários
 
 - [x] 7-1: _Fluxo de exceções e manipulação de objetos_
 - [x] 7-2: _Primeiros passos em Jest_
 - [x] 7-3: _Matchers e coberturas de código_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/jonnoliveira/trybe-project-05-js-unit-tests)_
 
 ##### Seção 8: Higher Order Functions do JavaScript ES6
 
@@ -66,7 +66,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-3: _Higher Order Functions - filter e reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter e object destructuring_
 - [x] 8-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
-- [x] 8-6: _[Projeto - Zoo functions]()_
+- [x] 8-6: _[Projeto - Zoo functions](https://github.com/jonnoliveira/trybe-project-06-zoo-functions)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -76,37 +76,37 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 1-2: _JavaScript Assíncrono: Promises e fetch_
 - [x] 1-3: _Prática: Casa de câmbio_
 - [x] 1-4: _Async, await e testes assíncronos_
-- [x] 1-5: _[Projeto - Carrinho de Compras]()_
+- [x] 1-5: _[Projeto - Carrinho de Compras](https://github.com/jonnoliveira/trybe-project-07-shopping-cart)_
 
 ##### Seção 2: Introdução ao React
 
 - [x] 3-1: _'Hello, world!' no React!_
 - [x] 3-2: _Componentes React_
-- [x] 3-3: _[Projeto - Solar System]()_
+- [x] 3-3: _[Projeto - Solar System](https://github.com/jonnoliveira/trybe-project-08-solar-system)_
 
 ##### Seção 3: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 3-1: _Components com estado e eventos_
 - [x] 3-2: _Formulários no React_
-- [x] 3-3: _[Projeto - Tryunfo]()_
+- [x] 3-3: _[Projeto - Tryunfo](https://github.com/jonnoliveira/trybe-project-09-tryunfo)_
 
 ##### Seção 4: Ciclo de vida de Compoenentes e React Router
 
 - [x] 4-1: _Ciclo de vida de componentes_
 - [x] 4-2: _React Router_
-- [x] 4-3: _[Projeto - TrybeTunes]()_
+- [x] 4-3: _[Projeto - TrybeTunes](https://github.com/jonnoliveira/trybe-project-10-trybetunes)_
 
 ##### Seção 5: Metodologias Ágeis
 
 - [x] 5-1: _Metodologias Ágeis_
-- [x] 5-2: _[Projeto - Frontend Online Store]()_
+- [x] 5-2: _[Projeto - Frontend Online Store](https://github.com/jonnoliveira/trybe-project-11-frontend-online-store)_
 
 ##### Seção 6: Testes automatizados com React Testing Library
 
 - [x] 6-1: _RTL - Primeiros passos_
 - [x] 6-2: _RTL - Mocks e Inputs_
 - [x] 6-3: _RTL - Testando React Router_
-- [x] 6-3: _[Projeto - Testes em React]()_
+- [x] 6-3: _[Projeto - Testes em React](https://github.com/jonnoliveira/trybe-project-12-react-testing-library)_
 
 ##### Seção 7: Gerenciamento de estado com Redux
 
@@ -115,22 +115,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-3: _Usando o React no Redux - Prática_
 - [x] 7-4: _Usando o React no Redux - Actions Assíncronas_
 - [x] 7-5: _Testes em React-Redux_
-- [x] 7-6: _[Projeto - Trybe Wallet]()_
+- [x] 7-6: _[Projeto - Trybe Wallet](https://github.com/jonnoliveira/trybe-project-13-trybewallet)_
 
 ##### Seção 8: Projeto Jogo de Trívia
 
-- [ ] 8-1: _[Projeto - Jogo de Trivia]()_
+- [ ] 8-1: _[Projeto - Jogo de Trivia](https://github.com/jonnoliveira/trybe-project-14-trivia-game)_
 
 ##### Seção 9: Context API e React Hooks
 
 - [ ] 9-1: _React Hooks - useState e useEffect_
 - [ ] 9-2: _Context API_
 - [ ] 9-3: _Custom Hooks_
-- [ ] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ ] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/jonnoliveira/trybe-project-15-starwars-planets-search)_
 
 ##### Seção 10: Projeto Final de Front-end
 
-- [ ] 10-1: _[Projeto - App de Receitas]()_
+- [ ] 10-1: _[Projeto - App de Receitas](https://github.com/jonnoliveira/trybe-project-16-recipes-app)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
