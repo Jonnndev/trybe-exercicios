@@ -119,58 +119,58 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 8: Projeto Jogo de Trívia
 
-- [ ] 8-1: _[Projeto - Jogo de Trivia](https://github.com/jonnoliveira/trybe-project-14-trivia-game)_
+- [x] 8-1: _[Projeto - Jogo de Trivia](https://github.com/jonnoliveira/trybe-project-14-trivia-game)_
 
 ##### Seção 9: Context API e React Hooks
 
-- [ ] 9-1: _React Hooks - useState e useEffect_
-- [ ] 9-2: _Context API_
-- [ ] 9-3: _Custom Hooks_
-- [ ] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/jonnoliveira/trybe-project-15-starwars-planets-search)_
+- [x] 9-1: _React Hooks - useState e useEffect_
+- [x] 9-2: _Context API_
+- [x] 9-3: _Custom Hooks_
+- [x] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/jonnoliveira/trybe-project-15-starwars-planets-search)_
 
 ##### Seção 10: Projeto Final de Front-end
 
-- [ ] 10-1: _[Projeto - App de Receitas](https://github.com/jonnoliveira/trybe-project-16-recipes-app)_
+- [x] 10-1: _[Projeto - App de Receitas](https://github.com/jonnoliveira/trybe-project-16-recipes-app)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Seção 1: Docker: Utilizando Containers
 
-- [ ] 1-1: _Utilizando Containers - Docker_
-- [ ] 1-2: _Manipulando imagens no Docker_
-- [ ] 1-3: _Orquestrando Containers com Docker Compose_
-- [ ] 1-4: _[Projeto - Docker Todo-List]()_
+- [x] 1-1: _Utilizando Containers - Docker_
+- [x] 1-2: _Manipulando imagens no Docker_
+- [x] 1-3: _Orquestrando Containers com Docker Compose_
+- [x] 1-4: _[Projeto - Docker Todo-List]()_
 
 ##### Seção 2: Introdução à SQL
 
-- [ ] 2-1: _Banco de dados SQL_
-- [ ] 2-2: _Encontrando dados em um banco de dados_
-- [ ] 2-3: _Filtrando dados de forma específica_
-- [ ] 2-4: _Manipulando tabelas_
-- [ ] 2-5: _[Projeto - All For One]()_
+- [x] 2-1: _Banco de dados SQL_
+- [x] 2-2: _Encontrando dados em um banco de dados_
+- [x] 2-3: _Filtrando dados de forma específica_
+- [x] 2-4: _Manipulando tabelas_
+- [x] 2-5: _[Projeto - All For One]()_
 
 ##### Seção 3: Funções SQL, JOINs e Normalização
 
-- [ ] 3-1: _Funções mais usadas no SQL_
-- [ ] 3-2: _Descomplicando JOINs_
-- [ ] 3-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 3-4: _Aula ao vivo + [Projeto - One For All]()_
+- [x] 3-1: _Funções mais usadas no SQL_
+- [x] 3-2: _Descomplicando JOINs_
+- [x] 3-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 3-4: _Aula ao vivo + [Projeto - One For All]()_
 
 ##### Seção 4: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 4-1: _Node.js - Runtime Assíncrono_
-- [ ] 4-2: _Node.js - API REST com Express_
-- [ ] 4-3: _Node.js - Testes de Integração_
-- [ ] 4-4: _Node.js - Express e Middlewares_
-- [ ] 4-5: _Node.js - Express e MySQL_
-- [ ] 4-6: _[Projeto - Talker Manager]()_
+- [x] 4-1: _Node.js - Runtime Assíncrono_
+- [x] 4-2: _Node.js - API REST com Express_
+- [x] 4-3: _Node.js - Testes de Integração_
+- [x] 4-4: _Node.js - Express e Middlewares_
+- [x] 4-5: _Node.js - Express e MySQL_
+- [x] 4-6: _[Projeto - Talker Manager]()_
 
 ##### Seção 5: Arquitetura de Software: Model, Service e Controller
 
-- [ ] 5-1: _Arquitetura de Software - Camada Model_
-- [ ] 5-2: _Arquitetura de Software - Camada Service_
-- [ ] 5-3: _Arquitetura de Software - Camada Controller_
-- [ ] 5-4: _[Projeto - Store Manager]()_
+- [x] 5-1: _Arquitetura de Software - Camada Model_
+- [x] 5-2: _Arquitetura de Software - Camada Service_
+- [x] 5-3: _Arquitetura de Software - Camada Controller_
+- [x] 5-4: _[Projeto - Store Manager]()_
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
