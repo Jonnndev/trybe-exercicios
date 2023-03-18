@@ -545,3 +545,123 @@ Existe um termo para isso: baixo acoplamento entre as camadas e nosso código. E
 que dá ao nosso código um grande poder de reuso já que isolamos as regras de negócio em uma camada 
 que não está atrelada a uma tecnologia específica.
 
+
+(!) Sempre que isolamos nossas regras de negócio na camada Service, precisamos estabelecer contratos com camadas que irão
+    acessar esses serviços. As demais camadas não devem ter visibilidade de como a camada Service realiza suas rotinas, mas
+    devem saber exatamente qual saída devem esperar em caso de sucesso ou falha na execução de um serviço.
+
+
+--> Testes para a função requestTravel: <<<<<
+
+~~~~~~~~~~~~~~~~
+// tests/unit/services/passenger.service.test.js
+
+// describe('Verificando service pessoa passageira', function () {
+  // ...
+
+  describe('solicitação de viagem', function () {
+    it('sem pontos de parada é realizada com sucesso', async function () {
+    });
+
+    it('com pontos de parada é realizada com sucesso', async function () {
+    });
+
+    it('com mesmo local de origem e destino é rejeitada', async function () {
+    });
+  });
+  
+  // ...
+// });
+~~~~~~~~~~~~~~~~
+
+--> VALIDAÇÕES:
+
+A função requestTravel deve retornar o 'type' sendo igual a null e 'message' sendo o objeto da viagem cadastrada (travel).
+Porém o teste do cenário que envia o endereço de partida igual ao endereço de destino não passa. Isso aconteceu porque a função
+requestTravel ainda não faz nenhum tipo de validação dos dados que chegam por parâmetro antes de fazer a inserção. Vamos mudar
+essa função para que ela siga as seguintes regras de negócio:
+
+1 - O id da pessoa passageira é obrigatório e dever ser um número inteiro com o valor mínimo igual a 1.
+
+2 - O Endereço de partida (startingAddress) é obrigatório e deve ter no mínimo 3 caracteres.
+
+3 - O Endereço de destino (endingAddress) é obrigatório e deve ter no mínimo 3 caracteres.
+
+4 - O Endereço de partida (startingAddress) não pode ser igual ao endereço de destino (endingAddress).
+
+5 - Os pontos de parada (waypoints) devem estar em uma array onde cada elemento deve seguir o seguinte formato:
+
+  A - Deve ter o atributo address sendo obrigatório e deve ter no mínimo 3 caracteres.
+
+  B - Deve ter o atributo stopOrder onde o valor deve ser um número inteiro com o valor mínimo igual a 1.
+
+  C - Os pontos de parada são opcionais (ou seja é possível fazer uma viagem enviando apenas o ponto de partida
+      e o ponto de destino).
+
+      --> DEFININDO SCHEMAS
+
+~~~~~~~~~~~~~~~~
+      // src/services/validations/schemas.js
+
+      const pointSchema = Joi.string().min(3).required();
+
+      const waypointSchema = Joi.object({
+        address: pointSchema,
+        stopOrder: Joi.number().integer().min(1) });
+
+      const addRequestTravelSchema = Joi.object({
+        passengerId: idSchema,
+        startingAddress: pointSchema,
+        endingAddress: pointSchema.invalid(Joi.ref('startingAddress')),
+        waypoints: Joi.array().items(waypointSchema),
+      });
+~~~~~~~~~~~~~~~~
+
+(!) O trecho pointSchema.invalid(Joi.ref('startingAddress')) que utiliza as validações já definidas em pointSchema e acrescenta
+uma nova validação, através da função Joi.ref(), para comparar o valor deste atributo com o atributo startingAddress e se forem
+iguais o schema retorna uma mensagem de erro que informa que o valor do atributo endingAddress é inválido.
+
+--> Validando de fato:
+
+~~~~~~~~~~~~~~~~
+// src/services/validations/validationsInputValues.js
+
+const { addPassengerSchema, idSchema, addRequestTravelSchema } = require('./schemas');
+
+// ...
+
+
+const validateRequestTravelSchema = (passengerId, startingAddress, endingAddress, waypoints) => {
+  const { error } = addRequestTravelSchema
+    .validate({ passengerId, startingAddress, endingAddress, waypoints });
+  if (error) return { type: 'INVALID_VALUE', message: error.message };
+
+  return { type: null, message: '' };
+};
+
+// module.exports = {
+  // ...
+  validateRequestTravelSchema,
+// };
+~~~~~~~~~~~~~~~~
+
+--> Utilizando a validação na função requestTravel:
+
+~~~~~~~~~~~~~~~~
+// src/services/passengers.service.js
+
+// ...
+
+// const requestTravel = async (passengerId, startingAddress, endingAddress, waypoints) => {
+  const validationResult = schema.validateRequestTravelSchema(
+    passengerId,
+    startingAddress,
+    endingAddress,
+    waypoints,
+  );
+
+  if (validationResult.type) return validationResult;
+  
+// ...
+~~~~~~~~~~~~~~~~
+
