@@ -745,6 +745,5 @@ class Board {
   get occupiedSquares() {
       return this.pieces.map((piece) => piece.position);
   }
-
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
