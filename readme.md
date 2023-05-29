@@ -174,89 +174,53 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 6: Node.js: ORM e Autenticação
 
-- [ ] 6-1: _ORM - Interface de aplicação com o banco de dados_
-- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
-- [ ] 6-3: _ORM - Associations N:N e Transactions_
-- [ ] 6-4: _JWT - JSON Web Token_
-- [ ] 6-5: _[Projeto - API de Blogs]()_
+- [x] 6-1: _ORM - Interface de aplicação com o banco de dados_
+- [x] 6-2: _ORM - Associations 1:1 e 1:N_
+- [x] 6-3: _ORM - Associations N:N e Transactions_
+- [x] 6-4: _JWT - JSON Web Token_
+- [x] 6-5: _[Projeto - API de Blogs]()_
 
 ##### Seção 7: Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] 7-1: _Infraestrutura: Deploy com Railway_
+- [x] 7-1: _Infraestrutura: Deploy com Railway_
 
 ##### Seção 8: Introdução a TypeScript
 
-- [ ] 8-1: _Introdução ao TypeScript_
-- [ ] 8-2: _Tipagem Estática e Generics_
-- [ ] 8-3: _Express com TypeScript_
-- [ ] 8-3: _[Projeto - Trybesmith]()_
+- [x] 8-1: _Introdução ao TypeScript_
+- [x] 8-2: _Tipagem Estática e Generics_
+- [x] 8-3: _Express com TypeScript_
+- [x] 8-3: _[Projeto - Trybesmith]()_
 
 ##### Seção 9: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Composição_
-- [ ] 9-3: _Polimorfismo_
-- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 9-5: _SOLID - Princípios L e I_
-- [ ] 9-6: _[Projeto - Trybers and Dragons]()_
+- [x] 9-1: _Introdução à Orientação a Objetos_
+- [x] 9-2: _Herança e Composição_
+- [x] 9-3: _Polimorfismo_
+- [x] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [x] 9-5: _SOLID - Princípios L e I_
+- [x] 9-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Seção 10: Projeto TFC - Trybe Futebol Clube
 
-- [ ] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
-
-##### Seção 11: Introdução ao MongoDB
-
-- [ ] 11-1: _MongoDB - Introdução_
-- [ ] 11-2: _Filters Operators_
-- [ ] 11-3: _Operadores de consulta_
-- [ ] 11-4: _Updates simples_
-- [ ] 11-5: _Updates complexos - Arrays_
-- [ ] 11-6: _[Projeto - Commerce]()_
-
-##### Seção 12: APIs OO e NoSQL
-
-- [ ] 12-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 12-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 12-3: _[Projeto - Car Shop]()_
-
-##### Seção 13: Projeto App de Delivery
-
-- [ ] 13-1: _[Projeto - App de Delivery]()_
-
+- [x] 10-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Seção 1: Introdução a Python
 
-- [ ] 1-1: _Aprendendo Python_
-- [ ] 1-2: _Entrada e Saída de Dados_
-- [ ] 1-3: _Testes_
-- [ ] 1-4: _[Projeto - Job Insights]()_
+- [x] 1-1: _Aprendendo Python_
+- [x] 1-2: _Entrada e Saída de Dados_
 
-##### Seção 2: Padrões de Projeto
+##### Seção 2: Algoritmos
 
-- [ ] 2-1: _POO em Python_
-- [ ] 2-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 2-3: _Padrões - Decorator, Observer, Factory_
-- [ ] 2-4: _[Projeto - Relatório de Estoque]()_
-
-##### Seção 3: Redes e Raspagem de Dados
-
-- [ ] 3-1: _Arquitetura de redes_
-- [ ] 3-2: _Raspagem de Dados_
-- [ ] 3-3: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 3-4: _[Projeto - Tech News]()_
-
-##### Seção 4: Algoritmos
-
-- [ ] 4-1: _Complexidade de Algoritmos_
+- [x] 4-1: _Complexidade de Algoritmos_
 - [ ] 4-2: _Recursividade e Estratégias para solução de problemas_
 - [ ] 4-3: _Algoritmos de ordenação e busca_
 - [ ] 4-4: _[Projeto - Algoritmos]()_
 
-##### Seção 5: Estrutua de Dados I: Arrays, Filas e Pilhas
+##### Seção 3: Estrutua de Dados I: Listas Lineares
 
-- [ ] 5-1: _Arquitetura de Computadores_
+- [ ] 5-1: _POO em Python
 - [ ] 5-2: _Arrays_
 - [ ] 5-3: _Nó e Listas Encadeadas_
 - [ ] 5-4: _Pilhas e Filas_
