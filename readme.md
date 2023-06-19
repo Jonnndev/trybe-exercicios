@@ -214,22 +214,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 2: Algoritmos
 
 - [x] 2-1: _Complexidade de Algoritmos_
-- [ ] 2-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 2-3: _Algoritmos de ordenação e busca_
-- [ ] 2-4: _[Projeto - Algoritmos]()_
+- [x] 2-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 2-3: _Algoritmos de ordenação e busca_
+- [x] 2-4: _[Projeto - Algoritmos]()_
 
 ##### Seção 3: Estrutua de Dados I: Listas Lineares
 
-- [ ] 3-1: _POO em Python
-- [ ] 3-2: _Arrays_
-- [ ] 3-3: _Nó e Listas Encadeadas_
-- [ ] 3-4: _Pilhas e Filas_
-- [ ] 3-4: _[Projeto - TING - Trybe Is Not Google]()_
+- [x] 3-1: _POO em Python_
+- [x] 3-2: _Arrays_
+- [x] 3-3: _Nó e Listas Encadeadas_
+- [x] 3-4: _Pilhas e Filas_
+- [x] 3-4: _[Projeto - TING - Trybe Is Not Google]()_
 
 ##### Seção 4: Estrutua de Dados II: Hashmaps e Sets
 
-- [ ] 4-1: _Hashmap e Dict_
-- [ ] 4-2: _Set_
+- [x] 4-1: _Hashmap e Dict_
+- [x] 4-2: _Set_
 - [ ] 4-3: _[Projeto - Restaurant Orders]()_
 
 ##
