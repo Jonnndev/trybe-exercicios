@@ -265,3 +265,45 @@ def pytest_configure(config):
         "markers", "slow: marks tests as slow"
     )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# MARKERS BUILT-IN:
+
+--> SKIP: O marcador skip serve para pular um teste específico. Mais útil que o skip é a sua variante mais
+específica skipif, que pula um teste a depender de uma condição.
+
+--> XFAIL: Aqui a intenção é que o teste de fato falhe. Por isso o nome do marcador é expect fail (esperamos que falhe).
+
+====================================== PARAMETRIZAÇÃO =======================================
+
+A parametrização de testes é uma funcionalidade do pytest que permite executar o mesmo teste múltiplas
+vezes com diferentes parâmetros de entrada. É uma forma eficiente de testar várias entradas e saídas
+de uma função em um único teste.
+
+Para usar a parametrização de testes, basta adicionar o marker '@pytest.mark.parametrize' acima da definição da função. Esse marcador recebe dois argumentos:
+
+1 - Uma string ou uma sequência (lista, tupla, etc) de strings, representando o nome dos parâmetros.
+2 - Um iterável (geralmente uma lista) com os valores para o parâmetro.
+         Se for mais de um parâmetro, um iterável de um iterável (geralmente uma lista de tuplas).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Import pytest
+
+from main Import mean
+
+
+@pytest.mark.parametrize(
+    "input_numbers, expected_result",  # 1
+    [  # 2
+        ([1, 2, 3, 4, 5], 3.0),  # 3
+        ([2.5, 3.75, 1.25, 4], 2.875),
+    ],
+)
+def test_mean(input_numbers, expected_result):  # 4
+    assert mean(input_numbers) == expected_result
+
+
+def test_mean_fail():  # 5
+    with pytest.raises(ZeroDivisionError):
+        mean([])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Comando: pytest -k mean -vv
