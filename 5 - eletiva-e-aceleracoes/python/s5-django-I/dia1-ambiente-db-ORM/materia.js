@@ -173,6 +173,7 @@ pip install mysqlclient
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (!) pkg-config --> conferir documentação do erro (!)
+--> sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
 
 ========================================== CRIANDO PRIMEIRA APLICAÇÃO ==========================================
 
